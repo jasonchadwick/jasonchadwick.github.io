@@ -1,6 +1,7 @@
 ---
 title: "Neural networks for fusion plasma prediction"
 layout: project
+image: /assets/img/projects/tenenet.png
 items:
     - name: poster
       link: /assets/files/fusion-poster.pdf

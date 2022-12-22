@@ -1,6 +1,7 @@
 ---
 title: "Quops: a board game inspired by quantum mechanics"
 layout: project
+image: /assets/img/projects/quops.png
 ---
 
 Quops (short for "quantum operations") is a board game where the board and cards are based on the rules of quantum mechanics. The goal is simple: If you are player 0, get the values of all the tiles as close to 0 as possible. If you are player 1, get them as close to 1 as possible. 

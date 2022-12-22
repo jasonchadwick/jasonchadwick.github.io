@@ -1,6 +1,7 @@
 ---
 title: "Chronodrifter: a 2D time-manipulation puzzle platformer"
 layout: project
+image: /assets/img/projects/chronodrifter.png
 items:
     - name: Live web game
       link: https://placeholder-studios-dev.github.io/chronodrifter

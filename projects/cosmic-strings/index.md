@@ -1,6 +1,7 @@
 ---
 title: "Cosmic string research"
 layout: project
+image: /assets/img/projects/strings.png
 ---
 
 

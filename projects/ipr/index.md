@@ -1,6 +1,7 @@
 ---
 title: "Quantum optimal control for high radix computation"
 layout: project
+image: /assets/img/projects/ipr.png
 items:
     - name: pdf
       link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
