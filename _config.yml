@@ -86,7 +86,7 @@ sections:
         img: /assets/img/projects/chronodrifter.png
         items:
           - name: live web game
-            link: placeholder-studios-dev.github.io/chronodrifter
+            link: https://jasonchadwick.github.io/chronodrifter
           - name: project
             link: /projects/chronodrifter
           - name: code
