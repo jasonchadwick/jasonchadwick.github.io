@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<a href="/">← back to home</a>
+
+<div style="padding-top:10px"></div>
+
+{% for item in page.items %}
+<span class="highlight">
+    {% if item.name == "project" %}
+    <a class="no-uline" href="{{ item.link }}" style="color:#fff">
+        {{ item.name }}
+    </a>
+    {% else %}
+    <a class="no-uline" href="{{ item.link }}" style="color:#fff" target="_blank" rel="noopener noreferrer">
+        {{ item.name }}
+    </a>
+    {% endif %}
+</span>
+{% endfor %}
+
+<hr style="margin:10px 0px">
+
+{{content}}
+
+<a href="/">← back to home</a>

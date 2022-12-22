@@ -1,0 +1,71 @@
+---
+layout: default
+---
+    <h1>About</h1>
+    <hr>
+    {{ content }}
+
+    {% for section in site.sections %}
+    <h1>{{ section.name }}</h1>
+    <hr>
+
+    {% for paper in section.items %}
+    <div>
+      <div style="float: left; width: 35%; display: block; padding-top:7px">
+          <img src="{{ paper.img }}" class="floating-img" style="width:100%">
+      </div>
+      <div style="float: right; width: 60%; padding-top:0px">
+        <span style="font-weight: bold; font-size:larger;">{{ paper.title }}</span>
+        <br>
+        {% if paper.publisher %}
+          <span style="font-style: italic; color:var(--primary-dark); font-size:20px; font-weight: 500;">{{ paper.publisher }}</span>
+          <br>
+        {% endif %}
+
+        
+        {% for author in paper.authors %}
+          {% if author == paper.authors.last %}
+            and
+          {% endif %}
+
+          {% if author.name == "Jason Chadwick," or author.name == "Jason Chadwick" %}
+            <span style="font-weight:550">{{ author.name }}</span>
+          {% elsif author.link %}
+            <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+          {% else %}
+            {{ author.name }}  
+          {% endif %}
+        {% endfor %}
+
+        <div style="padding-top: 10px"></div>
+
+        {% if paper.pdf-link %}
+        <span class="highlight">
+          <a href="{{ paper.pdf-link }}" target="_blank" rel="noopener noreferrer">
+            pdf
+          </a>
+        </span>
+        {% endif %}
+
+        {% for item in paper.items %}
+        <span class="highlight">
+            {% if item.name == "project" %}
+            <a class="no-uline" href="{{ item.link }}" style="color:#fff">
+                {{ item.name }}
+            </a>
+            {% else %}
+            <a class="no-uline" href="{{ item.link }}" style="color:#fff" target="_blank" rel="noopener noreferrer">
+                {{ item.name }}
+            </a>
+            {% endif %}
+        </span>
+        {% endfor %}
+
+        <div style="padding-top: 10px"></div>
+
+        {{ paper.short }}
+      </div>
+    </div>
+    <div style='clear:both; padding-top: 30px'></div>
+    {% endfor %}
+    {% endfor %}

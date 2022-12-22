@@ -1,6 +1,107 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: Jason Chadwick
+logo: /assets/img/portrait-circle-small.png
 google_analytics:
 theme: jekyll-theme-minimal
+
+mylinks:
+  - name: CV
+    link: /assets/files/JasonChadwickCV.pdf
+  - name: Github
+    link: https://github.com/jasonchadwick
+  - name: Google Scholar
+    link: https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en&inst=5778974199078678248
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/jasonchadwick/
+  - name: ORCiD
+    link: https://orcid.org/0000-0002-7932-1418
+
+sections:
+  - name: Research
+    items:
+      - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
+        abstract: Quantum computing is in an era of limited resources. Current hardware lacks high fidelity gates, long coherence times, and the number of computational \replaced{units}{devices} required to perform meaningful computation. Current quantum devices typically use a binary system, where each qubit exists in a superposition of the $\ket{0}$ and $\ket{1}$ state\added{s}. However, it is often possible to access the $\ket{2}$ or even $\ket{3}$ states in these same \replaced{physical unit}{device}  \added{by manipulating the system in different ways}. In this work, we consider \added{automatically} encoding two qubits into one four-state qu\emph{quart} \added{via a \emph{compression} scheme}. We use quantum optimal control to design efficient \added{proof-of-concept} gates that fully replicate standard qubit computation on these encoded qubits. We extend qubit compilation schemes to efficiently route qubits on an arbitrary mixed-radix system consisting of both qubits and ququarts, reducing communication and minimizing excess circuit execution time introduced by longer-duration ququart gates. \added{In conjunction with these compilation strategies}, we introduce several methods to find beneficial compressions, reducing circuit error due to computation and communication by up to 50\%.  Together, these methods can increase the computational space available on a limited near-term machine by up to 2x while maintaining circuit fidelity.
+        short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
+        img: /assets/img/projects/mixed-radix.png
+        authors: 
+          - name: "Andrew Litteken,"
+            link: http://andrewlitteken.com/
+          - name: "Lennart Maximilian Seifert,"
+            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+          - name: "Jason Chadwick,"
+          - name: "Natalia Nottingham,"
+            link: /projects/qompress
+          - name: "Jonathan M. Baker,"
+            link: https://www.jonathanmarkbaker.com/
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+            last: true
+        publisher: (to appear) ASPLOS 2023
+        items:
+
+      - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
+        abstract: "Current efforts to build quantum computers focus mainly on the two-state qubit, which often involves suppressing readily-available higher states. In this work, we break this abstraction and synthesize short-duration control pulses for gates on  generalized \textit{d}-state qu\textit{dits}. We present Incremental Pulse Re-seeding, a practical scheme to guide optimal control software to the lowest-duration pulse by iteratively seeding the optimizer with previous results. We find a near-linear relationship between Hilbert space dimension and gate duration through explicit pulse optimization for one- and two-qudit gates on transmons. Our results suggest that qudit operations are much more efficient than previously expected in the practical regime of interest and have the potential to significantly increase the computational power of current hardware."
+        short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
+        img: /assets/img/projects/ipr.png
+        authors: 
+          - name: "Lennart Maximilian Seifert,"
+            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+          - name: "Jason Chadwick,"
+          - name: "Andrew Litteken,"
+            link: http://andrewlitteken.com/
+          - name: "Frederic T. Chong,"
+            link: https://people.cs.uchicago.edu/~ftchong/
+          - name: "Jonathan M. Baker"
+            link: https://www.jonathanmarkbaker.com/
+            last: true
+        publisher: QCE 2022
+        items:
+          - name: pdf
+            link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
+          - name: project
+            link: /projects/ipr
+          - name: IEEE Xplore
+            link: "https://doi.org/10.1109/QCE53715.2022.00051"
+
+      - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
+        abstract: A new model for prediction of electron density and pressure profile shapes on NSTX and NSTX-U has been developed using neural networks. The model has been trained and tested on measured profiles from experimental discharges during the first operational campaign of NSTX-U. By projecting profiles onto empirically derived basis functions, the model is able to efficiently and accurately reproduce profile shapes. In order to project the performance of the model to upcoming NSTX-U operations, a large database of profiles from the operation of NSTX is used to test performance as a function of available data. The rapid execution time of the model is well suited to the planned applications, including optimization during scenario development activities, and real-time plasma control. A potential application of the model to real-time profile estimation is demonstrated.
+        short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
+        img: /assets/img/projects/tenenet.png
+        authors: 
+          - name: "Mark D. Boyer"
+            link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
+          - name: "Jason Chadwick"
+            last: true
+        publisher: Nuclear Fusion 61 046024
+        items:
+          - name: pdf
+            link: /assets/papers/TeNeNeT.pdf
+          - name: project
+            link: /projects/tenenet
+          - name: IOPscience
+            link: https://doi.org/10.1088/1741-4326/abe08b
+  - name: Projects
+    items:
+      - title: Chronodrifter
+        short: A 2D platformer game where the player can slow and reverse the flow of time and must solve increasingly complex puzzles. A live web version is hosted at placeholder-studios-dev.github.io/chronodrifter. Made with Unity.
+        img: /assets/img/projects/chronodrifter.png
+        items:
+          - name: live web game
+            link: placeholder-studios-dev.github.io/chronodrifter
+          - name: project
+            link: /projects/chronodrifter
+          - name: code
+            link: https://github.com/jasonchadwick/chronodrifter
+      - title: Quops
+        img: /assets/img/projects/quops.png
+        short: A board game consisting of hexagonal tiles, with each tile corresponding to a qubit. Players take turns applying quantum operations to the board to try to steer the collective board state to their target state. Graphical edition coming soon!
+        items:
+          - name: project
+            link: /projects/quops
+          - name: code
+            link: https://github.com/jasonchadwick/quops-game
+      - title: Cosmic string loops
+        img: /assets/img/projects/strings.png
+        short: "In the summer of 2019, I worked with Ken Olum at the Tufts Institute of Cosmology to study the properties of smooth cosmic string loops. I began the summer running computational simulations of cosmic strings and later transitioned to working on a mathematical proof that smooth cosmic string loops will always decay."
+        items:
+          - name: project
+            link: /projects/cosmic-strings

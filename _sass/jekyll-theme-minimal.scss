@@ -1,16 +1,25 @@
 @import "fonts";
 @import "rouge-github";
 
+:root {
+  --primary: #6486e3;
+  --primary-dark: #4f6ab5;
+  --secondary: #124e9d;
+  --bg: #f0f0f0;
+  --text: #575757;
+  --header: #222;
+}
+
 body {
-  background-color: #fff;
+  background-color: var(--bg);
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 18px "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:var(--text);
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:var(--header);
   margin:0 0 20px;
 }
 
@@ -27,7 +36,7 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:var(--header);
 }
 
 h3, h4, h5, h6 {
@@ -35,13 +44,27 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:var(--primary);//#267CB9;
   text-decoration:none;
 }
 
+.no-color {
+  color:var(--text)
+}
+
+.no-color:hover, .no-color:focus {
+  color:var(--primary-dark);
+  text-decoration: underline;
+}
+
+.no-uline:hover, .no-uline:focus {
+  text-decoration: none;
+}
+
 a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
+  color:var(--primary-dark);
+  text-decoration: underline;
+  //font-weight: bold;
 }
 
 a small {
@@ -56,7 +79,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:1200px;//860px;
   margin:0 auto;
 }
 
@@ -119,7 +142,7 @@ kbd {
 }
 
 header {
-  width:270px;
+  width:300px;//270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -186,7 +209,8 @@ strong {
 }
 
 section {
-  width:500px;
+  // header = 300px, wrapper=1200px
+  width:850px;//500px;
   float:right;
   padding-bottom:50px;
 }
@@ -197,9 +221,13 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
+  background:var(--primary-dark);
+  height:2px;
+  margin:-15px 0 20px;
+}
+
+.zeromargin {
+  margin: 0;
 }
 
 footer {
@@ -283,4 +311,60 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+// from https://stackoverflow.com/questions/65796587/display-text-on-hover
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 0.25em;
+  white-space: normal;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 100%;
+  transition-property: visibility;
+  transition-delay: 0s;
+}
+
+.tooltip:hover .tooltiptext {
+  width:30em;
+  visibility: visible;
+  //transition-delay: 0.3s;
+}
+
+// from https://www.freecodecamp.org/news/how-to-create-beautiful-box-shadows-in-html-and-css/
+.floating-img {
+  border-radius: 0px;
+  box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+// from https://stackoverflow.com/questions/63184618/how-to-highlight-some-phrases-with-rounded-boxes-in-text-with-css
+.highlight {
+  background: var(--primary);
+  color: rgb(214, 22, 22);
+  padding: 0px 5px 2px 6px; // top right bot left
+  border-radius: 7px;
+  margin: 0 5px 0 0;
+  -webkit-box-decoration-break: clone;
+  -moz-background-inline-policy: clone;
+  box-decoration-break: clone;
+  border-style:solid;
+  border-color:var(--primary-dark);
+  border-width:2px;
+}
+
+.highlight:hover {
+  background: var(--primary-dark);
 }
