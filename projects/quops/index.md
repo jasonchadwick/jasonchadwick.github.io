@@ -17,17 +17,17 @@ Mathematically, a board of *n* tiles is described by the superposition of bit ve
 ---
 
 Tile numbering:
-```
+<pre><code>
     13  15  18
   11   4   6  17
  9   2   0   5  16
    8   1   3  14
      7  10  12
-```
+</code></pre>
 
 Gameplay:
 
-```
+<pre><code>
 GAME START
 Board:
       0.0   0.0   0.0
@@ -78,7 +78,7 @@ _______________________________________________
 ...
 _______________________________________________
 Player 0's turn...
-```
+</code></pre>
 
 ### Qudits
 

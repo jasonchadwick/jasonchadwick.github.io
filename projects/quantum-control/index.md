@@ -1,18 +1,9 @@
 ---
-title: Time-Efficient Qudit Gates through Incremental Pulse Re-seeding
+title: What is quantum control?
 layout: project
-image: /assets/img/projects/ipr.png
-items:
-    - name: pdf
-      link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
-    - name: IEEE Xplore
-      link: "https://doi.org/10.1109/QCE53715.2022.00051"
-    - name: poster
-      link: /assets/files/QIP-2022.pdf
-abstract: abstract.md
+image: /assets/img/projects/x-transition.png
 ---
-
-
+  
 In the summer of 2021, I began research with the <a href="https://www.epiqc.cs.uchicago.edu/" target="_blank" rel="noopener noreferrer">EPiQC</a> group at the University of Chicago (I will now be starting a Ph.D. there in September) working under advisor Fred Chong. My goal was to determine the durations of high radix quantum logic gates, which I did by generating optimal quantum control pulses for various gates. The purpose of this research was to determine whether high radix computation offered a speed advantage over typical 2-state quantum computing.
 
 This project has led to a poster at QIP 2022 and publications at <a href="https://arxiv.org/abs/2206.14975" target="_blank" rel="noopener noreferrer">QCE 2022</a> and ASPLOS 2023 (under review).

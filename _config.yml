@@ -22,7 +22,6 @@ sections:
   - name: Research
     items:
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
-        abstract: Quantum computing is in an era of limited resources. Current hardware lacks high fidelity gates, long coherence times, and the number of computational \replaced{units}{devices} required to perform meaningful computation. Current quantum devices typically use a binary system, where each qubit exists in a superposition of the $\ket{0}$ and $\ket{1}$ state\added{s}. However, it is often possible to access the $\ket{2}$ or even $\ket{3}$ states in these same \replaced{physical unit}{device}  \added{by manipulating the system in different ways}. In this work, we consider \added{automatically} encoding two qubits into one four-state qu\emph{quart} \added{via a \emph{compression} scheme}. We use quantum optimal control to design efficient \added{proof-of-concept} gates that fully replicate standard qubit computation on these encoded qubits. We extend qubit compilation schemes to efficiently route qubits on an arbitrary mixed-radix system consisting of both qubits and ququarts, reducing communication and minimizing excess circuit execution time introduced by longer-duration ququart gates. \added{In conjunction with these compilation strategies}, we introduce several methods to find beneficial compressions, reducing circuit error due to computation and communication by up to 50\%.  Together, these methods can increase the computational space available on a limited near-term machine by up to 2x while maintaining circuit fidelity.
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
         img: /assets/img/projects/mixed-radix.png
         authors: 
@@ -42,7 +41,6 @@ sections:
         items:
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
-        abstract: "Current efforts to build quantum computers focus mainly on the two-state qubit, which often involves suppressing readily-available higher states. In this work, we break this abstraction and synthesize short-duration control pulses for gates on  generalized \textit{d}-state qu\textit{dits}. We present Incremental Pulse Re-seeding, a practical scheme to guide optimal control software to the lowest-duration pulse by iteratively seeding the optimizer with previous results. We find a near-linear relationship between Hilbert space dimension and gate duration through explicit pulse optimization for one- and two-qudit gates on transmons. Our results suggest that qudit operations are much more efficient than previously expected in the practical regime of interest and have the potential to significantly increase the computational power of current hardware."
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
         img: /assets/img/projects/ipr.png
         authors: 
@@ -66,7 +64,6 @@ sections:
             link: "https://doi.org/10.1109/QCE53715.2022.00051"
 
       - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
-        abstract: A new model for prediction of electron density and pressure profile shapes on NSTX and NSTX-U has been developed using neural networks. The model has been trained and tested on measured profiles from experimental discharges during the first operational campaign of NSTX-U. By projecting profiles onto empirically derived basis functions, the model is able to efficiently and accurately reproduce profile shapes. In order to project the performance of the model to upcoming NSTX-U operations, a large database of profiles from the operation of NSTX is used to test performance as a function of available data. The rapid execution time of the model is well suited to the planned applications, including optimization during scenario development activities, and real-time plasma control. A potential application of the model to real-time profile estimation is demonstrated.
         short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
         img: /assets/img/projects/tenenet.png
         authors: 
@@ -81,8 +78,13 @@ sections:
           - name: project
             link: /projects/tenenet
           - name: IOPscience
-            link: https://doi.org/10.1088/1741-4326/abe08b
+            link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b
+          - name: poster
+            link: /assets/files/fusion-poster.pdf
+          - name: slides
+            link: /assets/files/fusion-slides.pdf
   - name: Projects
+    description: Personal projects
     items:
       - title: Chronodrifter
         short: A 2D platformer game where the player can slow and reverse the flow of time and must solve increasingly complex puzzles. A live web version is hosted at placeholder-studios-dev.github.io/chronodrifter. Made with Unity.
@@ -108,3 +110,17 @@ sections:
         items:
           - name: project
             link: /projects/cosmic-strings
+  - name: Miscellaneous
+    items:
+      - title: What is quantum optimal control?
+        img: /assets/img/projects/x-transition.png
+        short: A brief explainer on quantum computing and specifically quantum control.
+        items:
+          - name: page
+            link: /projects/quantum-control
+      - title: Last Minute
+        img: /assets/img/projects/last-minute.png
+        short: In my junior year of undergrad, some friends and I created a band to perform in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute" (I'm all the way on stage left playing rhythm guitar!).
+        items:
+          - name: concert video
+            link: https://www.youtube.com/watch?v=Kg0dvcK3-HM

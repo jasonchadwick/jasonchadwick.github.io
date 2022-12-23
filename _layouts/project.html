@@ -7,22 +7,35 @@ layout: default
 <a href="/">← back to home</a>
 
 <div style="padding-top:10px"></div>
+<div style="background:#ddd; padding: 20px 20px 10px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
 
-{% for item in page.items %}
-<span class="highlight">
-    {% if item.name == "project" %}
-    <a class="no-uline" href="{{ item.link }}" style="color:#fff">
-        {{ item.name }}
-    </a>
-    {% else %}
-    <a class="no-uline" href="{{ item.link }}" style="color:#fff" target="_blank" rel="noopener noreferrer">
-        {{ item.name }}
-    </a>
-    {% endif %}
-</span>
-{% endfor %}
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered" style="width:50%">
 
-<hr style="margin:10px 0px">
+  {% if page.abstract %}
+    <h2>Abstract</h2>
+    <hr>
+    {% capture abs %}{% include_relative {{ page.abstract }} %}{% endcapture %}
+    {{ abs | markdownify }}
+  {% endif %}
+
+  {% for item in page.items %}
+  <span class="highlight">
+      {% if item.name == "project" %}
+      <a class="no-uline" href="{{ item.link }}" style="color:#fff">
+          {{ item.name }}
+      </a>
+      {% else %}
+      <a class="no-uline" href="{{ item.link }}" style="color:#fff" target="_blank" rel="noopener noreferrer">
+          {{ item.name }}
+      </a>
+      {% endif %}
+  </span>
+  {% endfor %}
+  <div style="padding-top:10px"></div>
+
+</div>
+
+
 
 {{content}}
 
