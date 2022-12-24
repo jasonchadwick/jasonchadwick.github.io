@@ -30,13 +30,17 @@ layout: default
         
         {% for author in paper.authors %}
           {% if author == paper.authors.last %}
-            and
-          {% endif %}
-
-          {% if author.link %}
-            <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+            {% if author.link %}
+                and <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+            {% else %}
+                {{ 'and ' | append: author.name }}  
+            {% endif %}
           {% else %}
-            {{ author.name }}  
+            {% if author.link %}
+                <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>,
+            {% else %}
+                {{ author.name }},
+            {% endif %}
           {% endif %}
         {% endfor %}
 

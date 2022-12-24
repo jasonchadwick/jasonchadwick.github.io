@@ -1,8 +1,11 @@
 ---
 title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
 layout: project
+publisher: Nuclear Fusion 61 046024
 image: /assets/img/projects/tenenet.png
 items:
+    - name: PDF
+      link: /assets/files/papers/TeNeNeT.pdf
     - name: IOPscience
       link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b
     - name: poster

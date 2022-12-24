@@ -1,9 +1,10 @@
 ---
 title: Time-Efficient Qudit Gates through Incremental Pulse Re-seeding
 layout: project
+publisher: 2022 IEEE International Conference on Quantum Computing and Engineering (QCE)
 image: /assets/img/projects/ipr/ipr.png
 items:
-    - name: pdf
+    - name: PDF
       link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
     - name: IEEE Xplore
       link: "https://doi.org/10.1109/QCE53715.2022.00051"

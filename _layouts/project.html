@@ -2,14 +2,41 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
 <a href="/">← back to home</a>
 
 <div style="padding-top:10px"></div>
 <div style="background:#ddd; padding: 20px 20px 15px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
 
-  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img" style="width:50%">
+  <h1 style="text-align:center">{{ page.title }}</h1>
+  <h4 style="text-align:center; color:var(--primary-dark); font-weight: bold;">{{ page.publisher }}</h4>
+
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img" style="width:60%">
+
+  <div style="padding-top:20px"></div>
+
+  {% assign num_authors = page.authors | size %}
+  <div id="equal-space-container" class="centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+  {% for author in page.authors %}
+    <div style="width: 280px; text-align: center">
+      {% if author.link %}
+        <a class="no-color" style="text-decoration: underline; font-weight: bold;" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+      {% else %}
+        <span style="font-weight: bold;">{{ author.name }}  </span>
+      {% endif %}
+      <br>
+      {{ author.affiliation }}
+      <div style="padding-top:10px"></div>
+    </div>
+
+    {% if forloop.index0 == 2 or forloop.index0 == 5 %}
+      </div>
+      <div style='clear:both;'></div>
+      {% assign num_authors = num_authors | minus:3 %}
+      <div id="equal-space-container" class="centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+    {% endif %}
+  {% endfor %}
+  </div>
+  <div style='clear:both; padding-top: 30px'></div>
 
   {% if page.abstract %}
     <h2>Abstract</h2>
@@ -35,22 +62,7 @@ layout: default
 
 </div>
 
-<div style="width:100%; text-align: justify;-ms-text-justify: distribute-all-lines;text-justify: distribute-all-lines;">
-{% for author in page.authors %}
-    <div style="width: 240px; float:left; text-align: center; padding:20px">
-    
-    {% if author.link %}
-      <a class="no-color" style="text-decoration: underline" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
-    {% else %}
-      {{ author.name }}  
-    {% endif %}
-    <br>
-    {{ author.affiliation }}
-    <div style="padding-top:10px"></div>
-  </div>
-{% endfor %}
-</div>
-<div style='clear:both; padding-top: 30px'></div>
+<div style="padding-top:10px"></div>
 
 {% if page.figures %}
   <h2>Selected Figures</h2>

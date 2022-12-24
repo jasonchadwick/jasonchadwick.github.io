@@ -25,14 +25,14 @@ sections:
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
         img: /assets/img/projects/qompress/mixed-radix.png
         authors: 
-          - name: "Andrew Litteken,"
+          - name: "Andrew Litteken"
             link: http://andrewlitteken.com/
-          - name: "Lennart Maximilian Seifert,"
+          - name: "Lennart Maximilian Seifert"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
-          - name: "Jason Chadwick,"
-          - name: "Natalia Nottingham,"
+          - name: "Jason Chadwick"
+          - name: "Natalia Nottingham"
             link: 
-          - name: "Jonathan M. Baker,"
+          - name: "Jonathan M. Baker"
             link: https://www.jonathanmarkbaker.com/
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
@@ -45,23 +45,25 @@ sections:
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
         img: /assets/img/projects/ipr/ipr.png
         authors: 
-          - name: "Lennart Maximilian Seifert*,"
+          - name: "Lennart Maximilian Seifert*"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
-          - name: "Jason Chadwick*,"
-          - name: "Andrew Litteken,"
+          - name: "Jason Chadwick*"
+          - name: "Andrew Litteken"
             link: http://andrewlitteken.com/
-          - name: "Frederic T. Chong,"
+          - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
           - name: "Jonathan M. Baker"
             link: https://www.jonathanmarkbaker.com/
         publisher: QCE 2022
         items:
-          - name: pdf
+          - name: PDF
             link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
           - name: project
             link: /projects/ipr
           - name: IEEE Xplore
             link: "https://doi.org/10.1109/QCE53715.2022.00051"
+          - name: poster
+            link: /assets/files/QIP-2022.pdf
 
       - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
         short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
@@ -72,7 +74,7 @@ sections:
           - name: "Jason Chadwick"
         publisher: Nuclear Fusion 61 046024
         items:
-          - name: pdf
+          - name: PDF
             link: /assets/papers/TeNeNeT.pdf
           - name: project
             link: /projects/tenenet
@@ -82,6 +84,7 @@ sections:
             link: /assets/files/fusion-poster.pdf
           - name: slides
             link: /assets/files/fusion-slides.pdf
+
   - name: Projects
     description: Personal projects
     items:
