@@ -1,0 +1,1 @@
+Figure 7. Expected Gate Probability of Success for each benchmark.  Each color represents a a different compilation strategy, where the black line is the exhaustive solution developed previously, and is the goal. FQ is the previous baseline for generalized ququart computation.

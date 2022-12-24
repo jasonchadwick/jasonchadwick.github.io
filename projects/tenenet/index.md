@@ -10,6 +10,12 @@ items:
     - name: slides
       link: /assets/files/fusion-slides.pdf
 abstract: abstract.md
+authors:
+    - name: "Mark D. Boyer"
+      link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
+      affiliation: Princeton Plasma Physics Laboratory
+    - name: "Jason Chadwick"
+      affiliation: Carnegie Mellon University
 ---
 
 In the summer of 2020, I worked with Dan Boyer at the Princeton Plasma Physics Laboratory (PPPL) to create a neural network for predicting fusion plasma properties in real time, for use in fusion reactor control systems. The neural network was successful, achieving high accuracy with extremely fast execution times.

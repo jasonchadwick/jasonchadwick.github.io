@@ -9,6 +9,11 @@ layout: default
     <h1>{{ section.name }}</h1>
     <hr>
 
+    {% if section.name == "Research" %}
+    * denotes equal contribution
+    <div style="padding-top: 10px"></div>
+    {% endif %}
+
     {% for paper in section.items %}
     <div>
       <div style="float: left; width: 35%; display: block; padding-top:7px">
@@ -28,9 +33,7 @@ layout: default
             and
           {% endif %}
 
-          {% if author.name == "Jason Chadwick," or author.name == "Jason Chadwick" %}
-            <span style="font-weight:550">{{ author.name }}</span>
-          {% elsif author.link %}
+          {% if author.link %}
             <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
           {% else %}
             {{ author.name }}  

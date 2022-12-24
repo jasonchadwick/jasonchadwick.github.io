@@ -1,0 +1,1 @@
+Figure 10. Expected Coherence Probability of Success for each benchmark.  Each color represents a a different compilation strategy, where the black line is the exhaustive solution developed previously, and is the goal. EC line stops short for computational reasons, requiring many more classical resources. FQ is the previous baseline for generalized ququart computation.

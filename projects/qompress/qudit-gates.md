@@ -1,0 +1,1 @@
+Figure 2. Two qubits $q_0$ and $q_1$ can be encoded into a ququart (blue oval) and interact with each other internally (green), with bare qubit $q$ outside (yellow), or with encoded qubits in a different ququart (red). CX arrows point from control qubit to target qubit. Along each CX link, corresponding SWAP gates are defined with the same superscripts/subscripts (not shown).

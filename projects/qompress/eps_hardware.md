@@ -1,0 +1,1 @@
+Figure 13. Ranges of gate based probability of success for CNU and Cylinder QAOA on three different architectural topologies.  These is the combined set of ratios of improvement for circuits sizes 5 to 40.

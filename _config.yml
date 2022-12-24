@@ -23,7 +23,7 @@ sections:
     items:
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
-        img: /assets/img/projects/mixed-radix.png
+        img: /assets/img/projects/qompress/mixed-radix.png
         authors: 
           - name: "Andrew Litteken,"
             link: http://andrewlitteken.com/
@@ -31,29 +31,29 @@ sections:
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
           - name: "Jason Chadwick,"
           - name: "Natalia Nottingham,"
-            link: /projects/qompress
+            link: 
           - name: "Jonathan M. Baker,"
             link: https://www.jonathanmarkbaker.com/
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-            last: true
         publisher: (to appear) ASPLOS 2023
         items:
+          - name: project
+            link: /projects/qompress
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
-        img: /assets/img/projects/ipr.png
+        img: /assets/img/projects/ipr/ipr.png
         authors: 
-          - name: "Lennart Maximilian Seifert,"
+          - name: "Lennart Maximilian Seifert*,"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
-          - name: "Jason Chadwick,"
+          - name: "Jason Chadwick*,"
           - name: "Andrew Litteken,"
             link: http://andrewlitteken.com/
           - name: "Frederic T. Chong,"
             link: https://people.cs.uchicago.edu/~ftchong/
           - name: "Jonathan M. Baker"
             link: https://www.jonathanmarkbaker.com/
-            last: true
         publisher: QCE 2022
         items:
           - name: pdf
@@ -70,7 +70,6 @@ sections:
           - name: "Mark D. Boyer"
             link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
           - name: "Jason Chadwick"
-            last: true
         publisher: Nuclear Fusion 61 046024
         items:
           - name: pdf
@@ -112,15 +111,15 @@ sections:
             link: /projects/cosmic-strings
   - name: Miscellaneous
     items:
-      - title: What is quantum optimal control?
+      - title: "Explainer: Quantum optimal control for qudits"
         img: /assets/img/projects/x-transition.png
-        short: A brief explainer on quantum computing and specifically quantum control.
+        short: A brief background explanation for my work with qudit quantum control.
         items:
           - name: page
             link: /projects/quantum-control
       - title: Last Minute
         img: /assets/img/projects/last-minute.png
-        short: In my junior year of undergrad, some friends and I created a band to perform in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute" (I'm all the way on stage left playing rhythm guitar!).
+        short: In my junior year of undergrad, some friends and I created a makeshift band to fill an open spot in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute". I'm all the way on stage left playing rhythm guitar!
         items:
-          - name: concert video
+          - name: concert video (YouTube)
             link: https://www.youtube.com/watch?v=Kg0dvcK3-HM

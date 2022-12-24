@@ -7,9 +7,9 @@ layout: default
 <a href="/">← back to home</a>
 
 <div style="padding-top:10px"></div>
-<div style="background:#ddd; padding: 20px 20px 10px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
+<div style="background:#ddd; padding: 20px 20px 15px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
 
-  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered" style="width:50%">
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img" style="width:50%">
 
   {% if page.abstract %}
     <h2>Abstract</h2>
@@ -35,7 +35,36 @@ layout: default
 
 </div>
 
+<div style="width:100%; text-align: justify;-ms-text-justify: distribute-all-lines;text-justify: distribute-all-lines;">
+{% for author in page.authors %}
+    <div style="width: 240px; float:left; text-align: center; padding:20px">
+    
+    {% if author.link %}
+      <a class="no-color" style="text-decoration: underline" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+    {% else %}
+      {{ author.name }}  
+    {% endif %}
+    <br>
+    {{ author.affiliation }}
+    <div style="padding-top:10px"></div>
+  </div>
+{% endfor %}
+</div>
+<div style='clear:both; padding-top: 30px'></div>
 
+{% if page.figures %}
+  <h2>Selected Figures</h2>
+  <hr>
+  {% for fig in page.figures %}
+    <div style="padding-top:30px"></div>
+    <img src="{{ fig.file }}" alt="{{ fig.file }}" class="centered floating-img" style="width:{% if fig.width %}{{ fig.width }}{% else %}70%{% endif %}">
+    <div style="padding-top:10px"></div>
+    <div style="text-align:center">
+    {% capture caption %}{% include_relative {{ fig.caption }} %}{% endcapture %}
+    {{ caption | markdownify }}
+  </div>
+  {% endfor %}
+{% endif %}
 
 {{content}}
 

@@ -1,0 +1,1 @@
+Figure 8. Gate durations of two-qudit $$\mathrm{SWAP}$$ operations for qudit dimensions $$d=2, 3, 4$$. The horizontal axis corresponds to the dimension of the full Hilbert space, $$h=d^2$$. Due to the low number of data points, regression is not applied, but a near-linear trend is visible.
