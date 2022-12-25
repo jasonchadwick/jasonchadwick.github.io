@@ -3,6 +3,7 @@
 
 :root {
   --primary: #6486e3;
+  --primary-light: #b8c9ff;
   --primary-dark: #4f6ab5;
   --secondary: #124e9d;
   --bg: #f0f0f0;
@@ -362,21 +363,22 @@ footer {
 
 // from https://stackoverflow.com/questions/63184618/how-to-highlight-some-phrases-with-rounded-boxes-in-text-with-css
 .highlight {
-  background: var(--primary);
-  color: #fff;
+  background: var(--primary-light);
+  color: var(--secondary);
   padding: 0px 5px 2px 6px; // top right bot left
-  border-radius: 12px;
+  border-radius: 8px;
   margin: 0 5px 0 0;
   -webkit-box-decoration-break: clone;
   -moz-background-inline-policy: clone;
   box-decoration-break: clone;
   border-style:solid;
   border-color:var(--primary-dark);
-  border-width:3px;
+  border-width:0px;
 }
 
 .highlight:hover {
   background: var(--primary-dark);
+  color: var(--bg)
 }
 
 #equal-space-container {

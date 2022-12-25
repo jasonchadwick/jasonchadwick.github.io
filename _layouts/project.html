@@ -46,17 +46,15 @@ layout: default
   {% endif %}
 
   {% for item in page.items %}
-  <span class="highlight">
       {% if item.name == "project" %}
-      <a class="no-uline" href="{{ item.link }}" style="color:#fff">
+      <a class="no-uline highlight" href="{{ item.link }}">
           {{ item.name }}
       </a>
       {% else %}
-      <a class="no-uline" href="{{ item.link }}" style="color:#fff" target="_blank" rel="noopener noreferrer">
+      <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
           {{ item.name }}
       </a>
       {% endif %}
-  </span>
   {% endfor %}
   <div style="padding-top:10px"></div>
 
