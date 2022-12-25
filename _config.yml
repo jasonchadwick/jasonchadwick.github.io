@@ -67,7 +67,7 @@ sections:
 
       - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
         short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
-        img: /assets/img/projects/tenenet.png
+        img: /assets/img/projects/tenenet/hero.png
         authors: 
           - name: "Mark D. Boyer"
             link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
