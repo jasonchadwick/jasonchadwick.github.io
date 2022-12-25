@@ -15,15 +15,24 @@ layout: default
     {% endif %}
 
     {% for paper in section.items %}
+
+    {% for item in paper.items %}
+        {% if item.name == "project" or item.name == "page" %}
+            {% assign projectlink = item.link %}
+        {% endif %}
+    {% endfor %}
+
     <div>
       <div style="float: left; width: 35%; display: block; padding-top:7px">
-          <img src="{{ paper.img }}" alt="Project image" class="floating-img" style="width:100%">
+          <a href="{{ projectlink }}">
+            <img src="{{ paper.img }}" alt="Project image" class="floating-img" style="width:100%">
+        </a>
       </div>
       <div style="float: right; width: 60%; padding-top:0px">
         <span style="font-weight: bold; font-size:larger;">{{ paper.title }}</span>
         <br>
         {% if paper.publisher %}
-          <span style="font-style: italic; color:var(--primary-dark); font-size:20px; font-weight: 500;">{{ paper.publisher }}</span>
+          <span style="font-style: italic; color:var(--text-lighter); font-size:20px; font-weight: 500;">{{ paper.publisher }}</span>
           <br>
         {% endif %}
 

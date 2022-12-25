@@ -22,6 +22,7 @@ sections:
   - name: Research
     items:
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
+        file: /projects/qompress/index.md
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
         img: /assets/img/projects/qompress/mixed-radix.png
         authors: 
@@ -42,8 +43,9 @@ sections:
             link: /projects/qompress
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
+        file: /projects/ipr/index.md
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
-        img: /assets/img/projects/ipr/ipr.png
+        img: /assets/img/projects/ipr/hero.png
         authors: 
           - name: "Lennart Maximilian Seifert*"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
@@ -66,6 +68,7 @@ sections:
             link: /assets/files/QIP-2022.pdf
 
       - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
+        file: /projects/tenenet/index.md
         short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
         img: /assets/img/projects/tenenet/hero.png
         authors: 
@@ -89,7 +92,8 @@ sections:
     description: Personal projects
     items:
       - title: Chronodrifter
-        short: A 2D platformer game where the player can slow and reverse the flow of time and must solve increasingly complex puzzles. A live web version is hosted at placeholder-studios-dev.github.io/chronodrifter. Made with Unity.
+        file: /projects/chronodrifter/index.md
+        short: A 2D platformer game where the player can slow and reverse the flow of time to solve increasingly complex puzzles. Inspired by the game Portal and the movie Tenet. A live web version is hosted on this site. Made with Unity and C#.
         img: /assets/img/projects/chronodrifter.png
         items:
           - name: live web game
@@ -98,8 +102,10 @@ sections:
             link: /projects/chronodrifter
           - name: code
             link: https://github.com/jasonchadwick/chronodrifter
+
       - title: Quops
-        img: /assets/img/projects/quops.png
+        file: /projects/quops/index.md
+        img: /assets/img/projects/quops/quops.png
         short: A board game consisting of hexagonal tiles, with each tile corresponding to a qubit. Players take turns applying quantum operations to the board to try to steer the collective board state to their target state. Graphical edition coming soon!
         items:
           - name: project
@@ -112,15 +118,19 @@ sections:
         items:
           - name: project
             link: /projects/cosmic-strings
+
   - name: Miscellaneous
     items:
       - title: "Explainer: Quantum optimal control for qudits"
+        file: /projects/control_explainer/index.md
         img: /assets/img/projects/x-transition.png
         short: A brief background explanation for my work with qudit quantum control.
         items:
           - name: page
             link: /projects/quantum-control
+
       - title: Last Minute
+        file: /projects/last_minute/index.md
         img: /assets/img/projects/last-minute.png
         short: In my junior year of undergrad, some friends and I created a makeshift band to fill an open spot in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute". I'm all the way on stage left playing rhythm guitar!
         items:

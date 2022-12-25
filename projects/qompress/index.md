@@ -24,19 +24,19 @@ authors:
       affiliation: University of Chicago
       last: true
 figures:
-    - file: /assets/img/projects/qompress/qudit_gates.png
-      caption: qudit-gates.md
-    - file: /assets/img/projects/qompress/state_evs.png
-      caption: state_evs.md
-    - file: /assets/img/projects/qompress/cycles.png
-      caption: cycles.md
+    - file: /assets/img/projects/qompress/02_qudit_gates.png
+      caption: 02_qudit_gates.md
+    - file: /assets/img/projects/qompress/03_state_evs.png
+      caption: 03_state_evs.md
+    - file: /assets/img/projects/qompress/05_cycles.png
+      caption: 05_cycles.md
       width: 100%
-    - file: /assets/img/projects/qompress/combined_strategies.png
-      caption: combined_strategies.md
+    - file: /assets/img/projects/qompress/07_combined_strategies.png
+      caption: 07_combined_strategies.md
       width: 100%
-    - file: /assets/img/projects/qompress/combined_strategies_1.png
-      caption: combined_strategies_1.md
+    - file: /assets/img/projects/qompress/10_combined_strategies.png
+      caption: 10_combined_strategies.md
       width: 100%
-    - file: /assets/img/projects/qompress/eps_hardware.png
-      caption: eps_hardware.md
+    - file: /assets/img/projects/qompress/13_eps_hardware.png
+      caption: 13_eps_hardware.md
 ---

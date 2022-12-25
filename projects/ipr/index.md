@@ -2,7 +2,7 @@
 title: Time-Efficient Qudit Gates through Incremental Pulse Re-seeding
 layout: project
 publisher: 2022 IEEE International Conference on Quantum Computing and Engineering (QCE)
-image: /assets/img/projects/ipr/ipr.png
+image: /assets/img/projects/ipr/hero.png
 items:
     - name: PDF
       link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
@@ -28,16 +28,16 @@ authors:
       affiliation: University of Chicago
       last: true
 figures:
-  - file: /assets/img/projects/ipr/H_4_example.png
-    caption: H_4_example.md
-  - file: /assets/img/projects/ipr/ipr_example.png
+  - file: /assets/img/projects/ipr/05_H_4_example.png
+    caption: 05_H_4_example.md
+  - file: /assets/img/projects/ipr/04_ipr_example.png
     width: 100%
-    caption: ipr_example.md
-  - file: /assets/img/projects/ipr/infidelity_boxplots.png
-    caption: infidelity_boxplots.md
-  - file: /assets/img/projects/ipr/scaling_1bit.png
+    caption: 04_ipr_example.md
+  - file: /assets/img/projects/ipr/06_infidelity_boxplots.png
+    caption: 06_infidelity_boxplots.md
+  - file: /assets/img/projects/ipr/07_scaling_1bit.png
     width: 100%
-    caption: scaling_1bit.md
-  - file: /assets/img/projects/ipr/scaling_swap.png
-    caption: scaling_swap.md
+    caption: 07_scaling_1bit.md
+  - file: /assets/img/projects/ipr/08_scaling_swap.png
+    caption: 08_scaling_swap.md
 ---
