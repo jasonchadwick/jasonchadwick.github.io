@@ -16,7 +16,7 @@ authors:
       link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
       affiliation: University of Chicago
     - name: "Jason Chadwick*"
-      affiliation: University of Chicago
+      affiliation: Carnegie Mellon University
     - name: "Andrew Litteken"
       link: http://andrewlitteken.com/
       affiliation: University of Chicago

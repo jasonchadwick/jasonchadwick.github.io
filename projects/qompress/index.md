@@ -28,6 +28,7 @@ figures:
       caption: 02_qudit_gates.md
     - file: /assets/img/projects/qompress/03_state_evs.png
       caption: 03_state_evs.md
+      width: 100%
     - file: /assets/img/projects/qompress/05_cycles.png
       caption: 05_cycles.md
       width: 100%
