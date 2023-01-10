@@ -23,12 +23,12 @@ layout: default
     {% endfor %}
 
     <div>
-      <div style="float: left; width: 35%; display: block; padding-top:7px">
-          <a href="{{ projectlink }}/#page-content">
+      <div class="project-homepage-img">
+          <a href="{{ projectlink }}/#page-top">
             <img src="{{ paper.img }}" alt="Project image" class="floating-img" style="width:100%">
         </a>
       </div>
-      <div style="float: right; width: 60%; padding-top:0px">
+      <div class="project-homepage-content">
         <span style="font-weight: bold; font-size:larger;">{{ paper.title }}</span>
         <br>
         {% if paper.publisher %}
@@ -64,15 +64,17 @@ layout: default
         {% endif %}
 
         {% for item in paper.items %}
-            {% if item.name == "project" or item.name == "page" %}
-            <a class="no-uline highlight" href="{{ item.link }}/#page-content">
+          
+          {% if item.name == "project" or item.name == "page" %}
+            <a class="no-uline highlight" href="{{ item.link }}/#page-top">
                 {{ item.name }}
             </a>
             {% else %}
             <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
                 {{ item.name }}
             </a>
-            {% endif %}
+          {% endif %}
+            
         {% endfor %}
 
         <div style="padding-top: 10px"></div>

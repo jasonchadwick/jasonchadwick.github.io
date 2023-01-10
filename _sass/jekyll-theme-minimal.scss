@@ -157,12 +157,6 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media only screen and (max-device-width: 950px) {
-  header {
-    text-align:center;
-  }
-}
-
 ul.downloads {
   list-style:none;
   height:40px;
@@ -253,6 +247,25 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.project-homepage-img {
+  float: left;
+  width: 35%;
+  display: block;
+  padding-top:7px
+}
+
+.project-homepage-content {
+  float: right;
+  width: 60%;
+  padding-top:0px
+}
+
+@media print, screen and (min-width: 960px) {
+  .only-on-mobile {
+    display:none
+  }
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -268,6 +281,7 @@ footer {
 
   header {
     padding-right:320px;
+    text-align: center;
   }
 
   section {
@@ -304,6 +318,19 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+
+  .project-homepage-img {
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+  }
+
+  .project-homepage-content {
+    float:none;
+    width:100%;
+    padding-top:10px;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
@@ -317,6 +344,10 @@ footer {
 
   .downloads li, .downloads li + li + li {
     width:33%;
+  }
+
+  .project-homepage-img {
+    width:100%
   }
 }
 
@@ -362,10 +393,6 @@ footer {
 // from https://www.freecodecamp.org/news/how-to-create-beautiful-box-shadows-in-html-and-css/
 .floating-img {
   box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.15);
-}
-
-.border-img {
-
 }
 
 // from https://stackoverflow.com/questions/63184618/how-to-highlight-some-phrases-with-rounded-boxes-in-text-with-css

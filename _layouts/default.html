@@ -18,7 +18,7 @@
         <a href="/"><span style="color: var(--primary-dark); font-size: 36px; font-weight: bold;">{{ site.title }}</span></a>
         <div style="padding-top: 10px"></div>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" class="centered" alt="Jason Chadwick" style="width:80%;"/>
+          <a href="/"><img src="{{site.logo | relative_url}}" class="centered" alt="Jason Chadwick" style="width:80%;"/></a>
         {% endif %}
         
         <br>
@@ -38,13 +38,11 @@
         {% endfor %}
         
       </header>
-      <section id="page-content">
+      <section>
+        <div class="only-on-mobile" id="page-top"></div>
         <div style="padding-top: 10px"></div>
         {{ content }}
       </section>
-      <footer>
-        <p><small>© Jason Chadwick 2023</small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
