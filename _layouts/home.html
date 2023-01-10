@@ -24,7 +24,7 @@ layout: default
 
     <div>
       <div style="float: left; width: 35%; display: block; padding-top:7px">
-          <a href="{{ projectlink }}">
+          <a href="{{ projectlink }}/#page-content">
             <img src="{{ paper.img }}" alt="Project image" class="floating-img" style="width:100%">
         </a>
       </div>
@@ -65,7 +65,7 @@ layout: default
 
         {% for item in paper.items %}
             {% if item.name == "project" or item.name == "page" %}
-            <a class="no-uline highlight" href="{{ item.link }}">
+            <a class="no-uline highlight" href="{{ item.link }}/#page-content">
                 {{ item.name }}
             </a>
             {% else %}

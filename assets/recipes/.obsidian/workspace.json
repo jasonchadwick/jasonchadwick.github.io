@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "e0c015ff6f0279ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "923c16864543e455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4c7c49e5a97a8a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creamy mushroom spinach risotto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3108ce93bac489dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Butternut Squash, Kale, and Goat Cheese Salad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd45dce530ef5cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Farro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ede6c28322af6bc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Papardelle with mushrooms, baby zucchini, and sausage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1069f6f4bbc7a5de",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3406e305c0aef81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a6965f12424af05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b67705e76046536",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "115c2142448daa11",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a9492dc14062264f",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc993f76d4f6e7e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a018633ae40dd3a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Papardelle with mushrooms, baby zucchini, and sausage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fa0410a395975a35",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Papardelle with mushrooms, baby zucchini, and sausage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "391424c01bcda754",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "028c857fce42c901",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Papardelle with mushrooms, baby zucchini, and sausage.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ede6c28322af6bc6",
+  "lastOpenFiles": [
+    "Farro.md",
+    "Butternut Squash, Kale, and Goat Cheese Salad.md",
+    "Creamy mushroom spinach risotto.md"
+  ]
+}

@@ -157,6 +157,12 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+@media only screen and (max-device-width: 950px) {
+  header {
+    text-align:center;
+  }
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
