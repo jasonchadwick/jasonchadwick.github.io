@@ -19,6 +19,8 @@ layout: default
     {% for item in paper.items %}
         {% if item.name == "project" or item.name == "page" %}
             {% assign projectlink = item.link %}
+        {% elsif paper.imglink %}
+          {% assign projectlink = paper.imglink %}
         {% endif %}
     {% endfor %}
 
