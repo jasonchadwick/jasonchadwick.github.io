@@ -6,6 +6,10 @@ google_analytics:
 theme: jekyll-theme-minimal
 author: Jason Chadwick
 
+url: www.jason-chadwick.com
+plugins:
+  - jekyll-sitemap
+
 mylinks:
   - name: CV
     link: /assets/files/JasonChadwickCV.pdf
