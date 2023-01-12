@@ -33,13 +33,13 @@
         <hr>
 
         {% for link in site.mylinks %}
-          <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer">{{ link.name }}</a>
+          <a href="{{ link.link }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600;">{{ link.name }}</a>
           <div style="padding-top: 10px"></div>
         {% endfor %}
         
       </header>
       <section>
-        <div class="only-on-mobile" id="page-top"></div>
+        <div class="small-screen" id="page-top"></div>
         <div style="padding-top: 10px"></div>
         {{ content }}
       </section>

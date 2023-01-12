@@ -247,6 +247,14 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.equal-space-container {
+  /*Making the container a flexbox*/
+  display: flex;
+  /*Making equal spaced divs*/
+  justify-content: space-between;
+  background-color: black;
+}
+
 .project-homepage-img {
   float: left;
   width: 35%;
@@ -260,8 +268,19 @@ footer {
   padding-top:0px
 }
 
+@media print, screen and (min-width: 720px) {
+  .small-screen {
+    display:none
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  .medium-screen {
+    display:none
+  }
+}
 @media print, screen and (min-width: 960px) {
-  .only-on-mobile {
+  .medium-screen {
     display:none
   }
 }
@@ -299,6 +318,10 @@ footer {
     position:absolute;
     right:50px;
     top:52px;
+  }
+
+  .large-screen {
+    display:none
   }
 }
 
@@ -413,12 +436,4 @@ footer {
 .highlight:hover {
   background: var(--primary-dark);
   color: var(--bg)
-}
-
-#equal-space-container {
-  /*Making the container a flexbox*/
-  display: flex;
-  /*Making equal spaced divs*/
-  justify-content: space-between;
-  background-color: black;
 }

@@ -12,33 +12,84 @@ layout: default
   <h1 style="text-align:center">{{ page.title }}</h1>
   <h4 style="text-align:center; color:var(--text-lighter); font-weight: bold;">{{ page.publisher }}</h4>
 
-  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img" style="width:60%">
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img large-screen" style="width:70%">
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img medium-screen" style="width:70%">
+  <img src="{{ page.image }}" alt="{{ page.title }}" class="centered floating-img small-screen" style="width:80%">
 
   <div style="padding-top:20px"></div>
 
   {% if page.authors %}
     {% assign num_authors = page.authors | size %}
-    <div id="equal-space-container" class="centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
-    {% for author in page.authors %}
-      <div style="width: 280px; text-align: center">
-        {% if author.link %}
-          <a class="no-color" style="text-decoration: underline; font-weight: bold;" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
-        {% else %}
-          <span style="font-weight: bold;">{{ author.name }}  </span>
-        {% endif %}
-        <br>
-        {{ author.affiliation }}
-        <div style="padding-top:10px"></div>
-      </div>
-
-      {% if forloop.index0 == 2 or forloop.index0 == 5 %}
+    <div class="large-screen">
+      <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+      {% for author in page.authors %}
+        <div style="width: 280px; text-align: center;">
+          {% if author.link %}
+            <a class="no-color" style="text-decoration: underline; font-weight: bold;" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+          {% else %}
+            <span style="font-weight: bold;">{{ author.name }}  </span>
+          {% endif %}
+          <br>
+          {{ author.affiliation }}
+          <div style="padding-top:10px"></div>
         </div>
-        <div style='clear:both;'></div>
-        {% assign num_authors = num_authors | minus:3 %}
-        <div id="equal-space-container" class="centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
-      {% endif %}
-    {% endfor %}
+
+        {% if forloop.index0 == 2 or forloop.index0 == 5 %}
+          </div>
+          <div style='clear:both;'></div>
+          {% assign num_authors = num_authors | minus:3 %}
+          <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+        {% endif %}
+      {% endfor %}
+      </div>
     </div>
+    <div class="medium-screen">
+      <div class="equal-space-container centered" style="width:80%; background: #ddd;">
+      {% for author in page.authors %}
+        <div style="width: 280px; text-align: center">
+          {% if author.link %}
+            <a class="no-color" style="text-decoration: underline; font-weight: bold;" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+          {% else %}
+            <span style="font-weight: bold;">{{ author.name }}  </span>
+          {% endif %}
+          <br>
+          {{ author.affiliation }}
+          <div style="padding-top:10px"></div>
+        </div>
+
+        {% if forloop.index0 == 1 or forloop.index0 == 3 or forloop.index0 == 5 %}
+          </div>
+          <div style='clear:both;'></div>
+          {% assign num_authors = num_authors | minus:2 %}
+          <div class="equal-space-container centered" style="width:80%; background: #ddd;">
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    <div class="small-screen">
+      <div class="equal-space-container centered" style="width:100%; background: #ddd;">
+      {% for author in page.authors %}
+        <div style="width: 280px; text-align: center">
+          {% if author.link %}
+            <a class="no-color" style="text-decoration: underline; font-weight: bold;" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+          {% else %}
+            <span style="font-weight: bold;">{{ author.name }}  </span>
+          {% endif %}
+          <br>
+          {{ author.affiliation }}
+          <div style="padding-top:10px"></div>
+        </div>
+
+        {% if forloop.index0 == 1 or forloop.index0 == 3 or forloop.index0 == 5 %}
+          </div>
+          <div style='clear:both;'></div>
+          {% assign num_authors = num_authors | minus:2 %}
+          <div class="equal-space-container centered" style="width:100%; background: #ddd;">
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+    
     <div style='clear:both; padding-top: 30px'></div>
   {% endif %}
 
