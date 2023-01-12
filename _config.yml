@@ -98,7 +98,7 @@ sections:
       - title: Chronodrifter
         file: /projects/chronodrifter/index.md
         short: A 2D platformer game where the player can slow and reverse the flow of time to solve increasingly complex puzzles. Inspired by the game Portal and the movie Tenet. A live web version is hosted on this site. Made with Unity and C#.
-        img: /assets/img/projects/chronodrifter.png
+        img: /assets/img/projects/chronodrifter/hero.png
         items:
           - name: live web game
             link: https://jasonchadwick.github.io/chronodrifter

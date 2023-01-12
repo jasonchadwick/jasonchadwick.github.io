@@ -1,7 +1,7 @@
 ---
 title: "Chronodrifter: a 2D time-manipulation puzzle platformer"
 layout: project
-image: /assets/img/projects/chronodrifter.png
+image: /assets/img/projects/chronodrifter/hero.png
 items:
     - name: Live web game
       link: https://www.jason-chadwick/chronodrifter
@@ -11,7 +11,7 @@ items:
 
 
 <figure style="float: right; width: 300px; margin: 15px">
-<img src="/assets/img/projects/quops/tower-gif" alt="Player reversing time to climb a tower of blocks" style="width: 300px">
+<img src="/assets/img/projects/chronodrifter/tower.gif" alt="Player reversing time to climb a tower of blocks" style="width: 300px">
 <figcaption style="text-align: center">Climbing a tower of blocks by first knocking it over and then reversing time.</figcaption>
 </figure>
 
