@@ -1,7 +1,8 @@
 title: Jason Chadwick
 tagline: Quantum computing PhD student at UChicago.
 description: First-year computer science Ph.D. student at the University of Chicago studying quantum computer systems with Fred Chong.
-logo: /assets/img/portrait-circle-small.png
+logo: /assets/img/portrait.JPG
+homepic: /assets/img/portrait-circle-small.png
 google_analytics:
 theme: jekyll-theme-minimal
 author: Jason Chadwick
