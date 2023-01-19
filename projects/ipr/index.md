@@ -8,6 +8,8 @@ items:
       link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
     - name: IEEE Xplore
       link: "https://doi.org/10.1109/QCE53715.2022.00051"
+    - name: arXiv
+      link: https://arxiv.org/abs/2206.14975
     - name: poster
       link: /assets/files/QIP-2022.pdf
 abstract: abstract.md
