@@ -4,6 +4,9 @@ layout: project
 publisher: 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
 image: /assets/img/projects/qompress/mixed-radix.png
 abstract: abstract.md
+items:
+    - name: PDF
+      link: /assets/papers/qompress.pdf
 authors:
     - name: "Andrew Litteken"
       link: http://andrewlitteken.com/

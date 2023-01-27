@@ -46,6 +46,8 @@ sections:
         items:
           - name: project
             link: /projects/qompress
+          - name: PDF
+            link: /assets/papers/qompress.pdf
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
         file: /projects/ipr/index.md

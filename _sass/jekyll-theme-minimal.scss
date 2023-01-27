@@ -10,6 +10,22 @@
   --text: #575757;
   --text-lighter: #808080;
   --header: #222;
+  --project-bg: #ddd;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("/assets/fonts/alegreya/Alegreya-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "AlegreyaSans";
+  src: url("/assets/fonts/AlegreyaSans/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Assistant";
+  src: url("/assets/fonts/Assistant/Assistant-VariableFont_wght.ttf");
 }
 
 body {

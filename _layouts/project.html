@@ -7,7 +7,7 @@ layout: default
 </a>
 
 <div style="padding-top:10px"></div>
-<div style="background:#ddd; padding: 20px 20px 15px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
+<div style="background:var(--project-bg); padding: 20px 20px 15px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
 
   <h1 style="text-align:center">{{ page.title }}</h1>
   <h4 style="text-align:center; color:var(--text-lighter); font-weight: bold;">{{ page.publisher }}</h4>
@@ -21,7 +21,7 @@ layout: default
   {% if page.authors %}
     {% assign num_authors = page.authors | size %}
     <div class="large-screen">
-      <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+      <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: var(--project-bg);">
       {% for author in page.authors %}
         <div style="width: 280px; text-align: center;">
           {% if author.link %}
@@ -38,13 +38,13 @@ layout: default
           </div>
           <div style='clear:both;'></div>
           {% assign num_authors = num_authors | minus:3 %}
-          <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: #ddd;">
+          <div class="equal-space-container centered" style="width:{% if num_authors >= 3 %}100%{% else %}60%{% endif %}; background: var(--project-bg);">
         {% endif %}
       {% endfor %}
       </div>
     </div>
     <div class="medium-screen">
-      <div class="equal-space-container centered" style="width:80%; background: #ddd;">
+      <div class="equal-space-container centered" style="width:80%; background: var(--project-bg);">
       {% for author in page.authors %}
         <div style="width: 280px; text-align: center">
           {% if author.link %}
@@ -61,13 +61,13 @@ layout: default
           </div>
           <div style='clear:both;'></div>
           {% assign num_authors = num_authors | minus:2 %}
-          <div class="equal-space-container centered" style="width:80%; background: #ddd;">
+          <div class="equal-space-container centered" style="width:80%; background: var(--project-bg);">
         {% endif %}
       {% endfor %}
       </div>
     </div>
     <div class="small-screen">
-      <div class="equal-space-container centered" style="width:100%; background: #ddd;">
+      <div class="equal-space-container centered" style="width:100%; background: var(--project-bg);">
       {% for author in page.authors %}
         <div style="width: 280px; text-align: center">
           {% if author.link %}
@@ -84,7 +84,7 @@ layout: default
           </div>
           <div style='clear:both;'></div>
           {% assign num_authors = num_authors | minus:2 %}
-          <div class="equal-space-container centered" style="width:100%; background: #ddd;">
+          <div class="equal-space-container centered" style="width:100%; background: var(--project-bg);">
         {% endif %}
       {% endfor %}
       </div>
