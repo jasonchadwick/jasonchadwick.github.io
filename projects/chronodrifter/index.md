@@ -4,7 +4,7 @@ layout: project
 image: /assets/img/projects/chronodrifter/hero.png
 items:
     - name: Live web game
-      link: https://www.jason-chadwick/chronodrifter
+      link: https://www.jason-chadwick.com/chronodrifter
     - name: code
       link: https://github.com/jasonchadwick/chronodrifter
 ---

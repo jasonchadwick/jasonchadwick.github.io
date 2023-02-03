@@ -125,7 +125,7 @@ sections:
           - name: project
             link: /projects/chronodrifter
           - name: live web game
-            link: https://jasonchadwick.github.io/chronodrifter
+            link: https://www.jason-chadwick.com/chronodrifter
           - name: code
             link: https://github.com/jasonchadwick/chronodrifter
 
