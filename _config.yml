@@ -26,6 +26,21 @@ mylinks:
 sections:
   - name: Research
     items:
+      - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
+        file: /projects/reoptimization/index.md
+        short: We present a general method to quickly generate high-fidelity control pulses for any continuously-parameterized set of quantum gates after calibrating a small number of reference pulses. The method generalizes to any number of parameters and can be used with any pulse optimization algorithm.
+        img: /assets/img/projects/reoptimization/hero.png
+        authors:
+          - name: "Jason Chadwick"
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+        items:
+          - name: project
+            link: /projects/reoptimization
+          - name: PDF
+            link: /assets/papers/Chadwick_Efficient_2023.pdf
+          - name: code
+            link: https://github.com/jasonchadwick/pulse-interpolation
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         file: /projects/qompress/index.md
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
@@ -48,6 +63,8 @@ sections:
             link: /projects/qompress
           - name: PDF
             link: /assets/papers/qompress.pdf
+          - name: ACM Digital Library
+            link: https://dl.acm.org/doi/10.1145/3575693.3575726
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
         file: /projects/ipr/index.md

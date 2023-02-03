@@ -38,7 +38,7 @@ layout: default
           <br>
         {% endif %}
 
-        
+        {% assign num_authors = paper.authors | size %}
         {% for author in paper.authors %}
           {% if author == paper.authors.last %}
             {% if author.link %}
@@ -50,7 +50,7 @@ layout: default
             {% if author.link %}
                 <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>,
             {% else %}
-                {{ author.name }},
+                {{ author.name }}{% if num_authors > 2 %},{% endif %}
             {% endif %}
           {% endif %}
         {% endfor %}
