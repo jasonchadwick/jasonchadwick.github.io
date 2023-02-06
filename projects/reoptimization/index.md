@@ -7,6 +7,8 @@ abstract: abstract.md
 items:
     - name: PDF
       link: /assets/papers/Chadwick_Efficient_2023.pdf
+    - name: arXiv
+      link: https://arxiv.org/abs/2302.01553
     - name: code
       link: https://github.com/jasonchadwick/pulse-interpolation
 authors:

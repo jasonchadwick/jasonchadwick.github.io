@@ -39,6 +39,8 @@ sections:
             link: /projects/reoptimization
           - name: PDF
             link: /assets/papers/Chadwick_Efficient_2023.pdf
+          - name: arXiv
+            link: https://arxiv.org/abs/2302.01553
           - name: code
             link: https://github.com/jasonchadwick/pulse-interpolation
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
