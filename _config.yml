@@ -28,7 +28,7 @@ sections:
     items:
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
         file: /projects/reoptimization/index.md
-        short: We present a general method to quickly generate high-fidelity control pulses for any continuously-parameterized set of quantum gates after calibrating a small number of reference pulses. The method generalizes to any number of parameters and can be used with any pulse optimization algorithm.
+        short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.
         img: /assets/img/projects/reoptimization/hero.png
         authors:
           - name: "Jason Chadwick"
