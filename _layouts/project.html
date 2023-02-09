@@ -2,6 +2,48 @@
 layout: default
 ---
 
+{% for item in page.items %}
+  {% if item.name == "project" %}
+    {% assign projectlink = item.link %}
+  {% endif %}
+{% endfor %}
+
+<head>
+  <title>{{ page.title }}</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "{{ page.title }}",
+    "image": [
+      "{{ page.image }}"
+     ],
+    "author": [{
+        "@type": "Person",
+        "name": "Jason Chadwick",
+        "url": "https://www.jason-chadwick.com"
+      }]
+  }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Projects",
+        "item": "https://www.jason-chadwick.com/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ page.title }}",
+        "item": "{{ projectlink }}"
+      }]
+    }
+    </script>
+</head>
+
 <a class="no-uline highlight" href="/">
   back to home
 </a>
