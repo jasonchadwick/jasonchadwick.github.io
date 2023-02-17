@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jason-chadwick.com/sitemap.xml
+Sitemap: https://www.jason-chadwick.com/assets/sitemap-extra.xml
