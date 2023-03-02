@@ -9,6 +9,8 @@ items:
       link: /assets/papers/qompress.pdf
     - name: ACM Digital Library
       link: https://dl.acm.org/doi/10.1145/3575693.3575726
+    - name: arXiv
+      link: https://arxiv.org/abs/2303.00658
 authors:
     - name: "Andrew Litteken"
       link: http://andrewlitteken.com/

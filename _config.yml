@@ -67,6 +67,8 @@ sections:
             link: /assets/papers/qompress.pdf
           - name: ACM Digital Library
             link: https://dl.acm.org/doi/10.1145/3575693.3575726
+          - name: arXiv
+            link: https://arxiv.org/abs/2303.00658
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
         file: /projects/ipr/index.md
