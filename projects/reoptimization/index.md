@@ -6,7 +6,7 @@ image: /assets/img/projects/reoptimization/hero.png
 abstract: abstract.md
 items:
     - name: PDF
-      link: /assets/papers/Chadwick_Efficient_2023.pdf
+      link: /assets/papers/chadwick_efficient_2023.pdf
     - name: arXiv
       link: https://arxiv.org/abs/2302.01553
     - name: code

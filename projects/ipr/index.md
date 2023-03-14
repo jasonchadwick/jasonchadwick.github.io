@@ -5,7 +5,7 @@ publisher: 2022 IEEE International Conference on Quantum Computing and Engineeri
 image: /assets/img/projects/ipr/hero.png
 items:
     - name: PDF
-      link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
+      link: /assets/papers/seifert_timeefficient_2022.pdf
     - name: IEEE Xplore
       link: "https://doi.org/10.1109/QCE53715.2022.00051"
     - name: arXiv

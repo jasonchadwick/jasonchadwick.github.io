@@ -38,14 +38,14 @@ sections:
           - name: project
             link: /projects/reoptimization
           - name: PDF
-            link: /assets/papers/Chadwick_Efficient_2023.pdf
+            link: /assets/papers/chadwick_efficient_2023.pdf
           - name: arXiv
             link: https://arxiv.org/abs/2302.01553
           - name: code
             link: https://github.com/jasonchadwick/pulse-interpolation
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         file: /projects/qompress/index.md
-        short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate control pulses that operate on this mixed-radix space and develop a compiler to transform any quantum circuit into this framework.
+        short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
         img: /assets/img/projects/qompress/mixed-radix.png
         authors: 
           - name: "Andrew Litteken"
@@ -64,7 +64,7 @@ sections:
           - name: project
             link: /projects/qompress
           - name: PDF
-            link: /assets/papers/Litteken_Qompress_2023.pdf
+            link: /assets/papers/litteken_qompress_2023.pdf
           - name: ACM Digital Library
             link: https://dl.acm.org/doi/10.1145/3575693.3575726
           - name: arXiv
@@ -89,7 +89,7 @@ sections:
           - name: project
             link: /projects/ipr
           - name: PDF
-            link: /assets/papers/QCE_2022_Pulse_Optimization.pdf
+            link: /assets/papers/seifert_timeefficient_2022.pdf
           - name: IEEE Xplore
             link: "https://doi.org/10.1109/QCE53715.2022.00051"
           - name: arXiv
@@ -110,7 +110,7 @@ sections:
           - name: project
             link: /projects/tenenet
           - name: PDF
-            link: /assets/papers/TeNeNeT.pdf
+            link: /assets/papers/boyer_prediction_2021.pdf
           - name: IOPscience
             link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b
           - name: poster

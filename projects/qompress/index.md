@@ -6,7 +6,7 @@ image: /assets/img/projects/qompress/mixed-radix.png
 abstract: abstract.md
 items:
     - name: PDF
-      link: /assets/papers/Litteken_Qompress_2023.pdf
+      link: /assets/papers/litteken_qompress_2023.pdf
     - name: ACM Digital Library
       link: https://dl.acm.org/doi/10.1145/3575693.3575726
     - name: arXiv
