@@ -17,7 +17,7 @@ authors:
     - name: "Mark D. Boyer"
       link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
       affiliation: Princeton Plasma Physics Laboratory
-    - name: "Jason Chadwick"
+    - name: "Jason D. Chadwick"
       affiliation: Carnegie Mellon University
 figures:
     - file: /assets/img/projects/tenenet/01_pca_variance.png

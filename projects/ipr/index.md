@@ -17,7 +17,7 @@ authors:
     - name: "Lennart Maximilian Seifert*"
       link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
       affiliation: University of Chicago
-    - name: "Jason Chadwick*"
+    - name: "Jason D. Chadwick*"
       affiliation: Carnegie Mellon University
     - name: "Andrew Litteken"
       link: http://andrewlitteken.com/

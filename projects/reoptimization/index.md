@@ -12,7 +12,7 @@ items:
     - name: code
       link: https://github.com/jasonchadwick/pulse-interpolation
 authors:
-    - name: "Jason Chadwick"
+    - name: "Jason D. Chadwick"
       affiliation: University of Chicago
     - name: "Frederic T. Chong"
       link: https://people.cs.uchicago.edu/~ftchong/

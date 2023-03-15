@@ -48,7 +48,7 @@ layout: default
             {% endif %}
           {% else %}
             {% if author.link %}
-                <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>,
+                <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% if num_authors > 2 %},{% endif %}
             {% else %}
                 {{ author.name }}{% if num_authors > 2 %},{% endif %}
             {% endif %}

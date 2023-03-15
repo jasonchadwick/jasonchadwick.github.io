@@ -1,11 +1,11 @@
-title: Jason Chadwick
+title: Jason D. Chadwick
 tagline: Quantum computing PhD student at UChicago
 description: First-year computer science Ph.D. student at the University of Chicago studying quantum computer systems with Fred Chong
 logo: /assets/img/portrait.JPG
 homepic: /assets/img/portrait-circle-small.png
 google_analytics:
 theme: jekyll-theme-minimal
-author: Jason Chadwick
+author: Jason D. Chadwick
 
 url: https://www.jason-chadwick.com
 plugins:
@@ -31,7 +31,7 @@ sections:
         short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.
         img: /assets/img/projects/reoptimization/hero.png
         authors:
-          - name: "Jason Chadwick"
+          - name: "Jason D. Chadwick"
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         items:
@@ -52,7 +52,7 @@ sections:
             link: http://andrewlitteken.com/
           - name: "Lennart Maximilian Seifert"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
-          - name: "Jason Chadwick"
+          - name: "Jason D. Chadwick"
           - name: "Natalia Nottingham"
             link: 
           - name: "Jonathan M. Baker"
@@ -77,7 +77,7 @@ sections:
         authors: 
           - name: "Lennart Maximilian Seifert*"
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
-          - name: "Jason Chadwick*"
+          - name: "Jason D. Chadwick*"
           - name: "Andrew Litteken"
             link: http://andrewlitteken.com/
           - name: "Frederic T. Chong"
@@ -104,7 +104,7 @@ sections:
         authors: 
           - name: "Mark D. Boyer"
             link: https://scholar.google.com/citations?user=73UIWLEAAAAJ&inst=5778974199078678248
-          - name: "Jason Chadwick"
+          - name: "Jason D. Chadwick"
         publisher: Nuclear Fusion 61 046024
         items:
           - name: project
