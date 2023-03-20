@@ -28,10 +28,15 @@
   src: url("/assets/fonts/Assistant/Assistant-VariableFont_wght.ttf");
 }
 
+@font-face {
+  font-family: "OpenSans";
+  src: url("/assets/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
 body {
   background-color: var(--bg);
   padding:50px;
-  font: 16px "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px "OpenSans";
   color:var(--text);
   font-weight:400;
 }
@@ -438,7 +443,7 @@ footer {
 .highlight {
   background: var(--primary-light);
   color: var(--secondary);
-  padding: 0px 5px 2px 6px; // top right bot left
+  padding: 1px 4px 1px 6px; // top right bot left
   border-radius: 8px;
   margin: 0 5px 0 0;
   -webkit-box-decoration-break: clone;
