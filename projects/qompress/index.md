@@ -8,7 +8,7 @@ items:
     - name: PDF
       link: /assets/papers/litteken_qompress_2023.pdf
     - name: ACM Digital Library
-      link: https://dl.acm.org/doi/10.1145/3575693.3575726
+      link: https://doi.org/10.1145/3575693.3575726
     - name: arXiv
       link: https://arxiv.org/abs/2303.00658
 authors:
