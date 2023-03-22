@@ -1,7 +1,7 @@
 ---
 title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
 layout: project
-publisher: 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
+publisher: International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
 image: /assets/img/projects/qompress/mixed-radix.png
 abstract: abstract.md
 items:

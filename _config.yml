@@ -43,6 +43,26 @@ sections:
             link: https://arxiv.org/abs/2302.01553
           - name: code
             link: https://github.com/jasonchadwick/pulse-interpolation
+      - title: "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures"
+        file: /projects/waltz/index.md
+        short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
+        img: /assets/img/projects/waltz/hero.png
+        authors: 
+          - name: "Andrew Litteken"
+            link: http://andrewlitteken.com/
+          - name: "Lennart Maximilian Seifert"
+            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+          - name: "Jason D. Chadwick"
+          - name: "Natalia Nottingham"
+            link: 
+          - name: "Jonathan M. Baker"
+            link: https://www.jonathanmarkbaker.com/
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+        publisher: (to appear) ISCA 2023
+        items:
+          - name: project
+            link: /projects/waltz
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         file: /projects/qompress/index.md
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
