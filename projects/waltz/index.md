@@ -17,6 +17,15 @@ authors:
     - name: "Natalia Nottingham"
       link: 
       affiliation: University of Chicago
+    - name: "Tanay Roy"
+      link: https://sites.google.com/site/tanayroysite/
+      affiliation: "Fermilab<br>University of Chicago"
+    - name: Ziqian Li
+      link: https://scholar.google.com/citations?user=wplWf_UAAAAJ&hl=en&inst=5778974199078678248
+      affiliation: "Stanford University<br>University of Chicago"
+    - name: David Schuster
+      link: https://schusterlab.stanford.edu/
+      affiliation: "Stanford University<br>University of Chicago"
     - name: "Jonathan M. Baker"
       link: https://www.jonathanmarkbaker.com/
       affiliation: University of Chicago
