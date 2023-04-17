@@ -5,6 +5,10 @@ publisher: International Symposium on Computer Architecture (ISCA)
 image: /assets/img/projects/waltz/hero.png
 abstract: abstract.md
 items:
+    - name: PDF
+      link: /assets/papers/litteken_dancing_2023.pdf
+    - name: arXiv
+      link: https://arxiv.org/abs/2303.14069
 authors:
     - name: "Andrew Litteken"
       link: http://andrewlitteken.com/

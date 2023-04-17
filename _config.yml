@@ -69,6 +69,10 @@ sections:
         items:
           - name: project
             link: /projects/waltz
+          - name: PDF
+            link: /assets/papers/litteken_dancing_2023.pdf
+          - name: arXiv
+            link: https://arxiv.org/abs/2303.14069
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         file: /projects/qompress/index.md
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
