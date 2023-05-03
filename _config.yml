@@ -29,7 +29,7 @@ sections:
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
         file: /projects/reoptimization/index.md
         short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.
-        img: /assets/img/projects/reoptimization/hero.png
+        img: /assets/img/projects/reoptimization/01_hero.png
         authors:
           - name: "Jason D. Chadwick"
           - name: "Frederic T. Chong"
@@ -89,7 +89,7 @@ sections:
             link: https://www.jonathanmarkbaker.com/
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: (to appear) ASPLOS 2023
+        publisher: ASPLOS 2023
         items:
           - name: project
             link: /projects/qompress

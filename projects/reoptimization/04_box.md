@@ -1,1 +1,0 @@
-Figure S1. Infidelities at 2197 test points within the $[0,1]^3$ Cartan coordinate box for 0 to 3 rounds of neighbor-average re-optimization. Average and worst-case infidelities are shown in Table III.
