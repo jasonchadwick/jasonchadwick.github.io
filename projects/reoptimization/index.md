@@ -2,7 +2,7 @@
 title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
 layout: project
 #publisher: 
-image: /assets/img/projects/reoptimization/01_hero.png
+image: /assets/img/projects/reoptimization/hero.png
 abstract: abstract.md
 items:
     - name: PDF
