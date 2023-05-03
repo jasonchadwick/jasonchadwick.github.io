@@ -103,6 +103,7 @@ sections:
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
         file: /projects/ipr/index.md
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
+        extra: "* indicates equal contribution"
         img: /assets/img/projects/ipr/hero.png
         authors: 
           - name: "Lennart Maximilian Seifert*"

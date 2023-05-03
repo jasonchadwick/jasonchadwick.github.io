@@ -18,6 +18,7 @@ authors:
       link: https://www.linkedin.com/in/mdboyer/
       affiliation: Princeton Plasma Physics Laboratory
     - name: "Jason D. Chadwick"
+      link: https://www.jason-chadwick.com/
       affiliation: Carnegie Mellon University
 figures:
     - file: /assets/img/projects/tenenet/01_pca_variance.png

@@ -1,5 +1,6 @@
 ---
 layout: home
+showsidebar: true
 ---
 
 I am a first-year computer science Ph.D. student at the University of Chicago studying quantum computer systems with <a href="https://people.cs.uchicago.edu/~ftchong/" target="_blank" rel="noopener noreferrer">Fred Chong</a>. Previously, I graduated from Carnegie Mellon University with a B.S. in physics and a minor in computer science. 
