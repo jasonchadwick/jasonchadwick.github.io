@@ -22,7 +22,7 @@ authors:
       link: https://www.jason-chadwick.com/
       affiliation: University of Chicago
     - name: "Natalia Nottingham"
-      link: 
+      link: https://cs.uchicago.edu/people/natalia-nottingham/
       affiliation: University of Chicago
     - name: "Jonathan M. Baker"
       link: https://www.jonathanmarkbaker.com/

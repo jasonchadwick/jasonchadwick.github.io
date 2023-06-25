@@ -54,7 +54,7 @@ sections:
               link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
             - name: "Jason D. Chadwick"
             - name: "Natalia Nottingham"
-              link: 
+              link: https://cs.uchicago.edu/people/natalia-nottingham/
             - name: "Tanay Roy"
               link: https://sites.google.com/site/tanayroysite/
             - name: Ziqian Li
@@ -65,12 +65,14 @@ sections:
               link: https://www.jonathanmarkbaker.com/
             - name: "Frederic T. Chong"
               link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: (to appear) ISCA 2023
+        publisher: ISCA 2023
         items:
           - name: project
             link: /projects/waltz
           - name: PDF
             link: /assets/papers/litteken_dancing_2023.pdf
+          - name: ACM Digital Library
+            link: https://doi.org/10.1145/3579371.3589106
           - name: arXiv
             link: https://arxiv.org/abs/2303.14069
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
@@ -84,7 +86,7 @@ sections:
             link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
           - name: "Jason D. Chadwick"
           - name: "Natalia Nottingham"
-            link: 
+            link: https://cs.uchicago.edu/people/natalia-nottingham/
           - name: "Jonathan M. Baker"
             link: https://www.jonathanmarkbaker.com/
           - name: "Frederic T. Chong"
@@ -96,7 +98,7 @@ sections:
           - name: PDF
             link: /assets/papers/litteken_qompress_2023.pdf
           - name: ACM Digital Library
-            link: "https://doi.org/10.1145/3575693.3575726"
+            link: https://doi.org/10.1145/3575693.3575726
           - name: arXiv
             link: https://arxiv.org/abs/2303.00658
 
@@ -122,7 +124,7 @@ sections:
           - name: PDF
             link: /assets/papers/seifert_timeefficient_2022.pdf
           - name: IEEE Xplore
-            link: "https://doi.org/10.1109/QCE53715.2022.00051"
+            link: https://doi.org/10.1109/QCE53715.2022.00051
           - name: arXiv
             link: https://arxiv.org/abs/2206.14975
           - name: poster

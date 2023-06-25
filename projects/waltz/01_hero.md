@@ -1,0 +1,1 @@
+Figure 1. A comparison of a Toffoli gate execution on a three-qubit-only system versus a Toffoli gate execution on a ququart and qubit in a mixed-radix system. In a qubit-only system, we must use a decomposition that uses eight two-qubit gates that can be reduced to one two-qudit gate that has a shorter duration.

@@ -1,0 +1,1 @@
+Figure 8. EPS statistics for the generalized Toffoli circuit.  We show the gate and coherence EPS on the left and the product EPS on the right.
