@@ -34,6 +34,7 @@ sections:
           - name: "Jason D. Chadwick"
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
+        publisher: (to appear) QCE 2023
         items:
           - name: project
             link: /projects/reoptimization

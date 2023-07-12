@@ -1,7 +1,7 @@
 ---
 title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
 layout: project
-#publisher: 
+publisher: IEEE International Conference on Quantum Computing and Engineering (QCE 2023)
 image: /assets/img/projects/reoptimization/hero.png
 abstract: abstract.md
 items:
