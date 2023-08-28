@@ -27,7 +27,7 @@ sections:
   - name: Research
     items:
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
-        file: /projects/reoptimization/index.md
+        imglink: /projects/reoptimization/
         short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.
         img: /assets/img/projects/reoptimization/hero.png
         authors:
@@ -45,7 +45,7 @@ sections:
           - name: code
             link: https://github.com/jasonchadwick/pulse-interpolation
       - title: "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures"
-        file: /projects/waltz/index.md
+        imglink: /projects/waltz/
         short: We extend our previous work on qubit-to-ququart compression to specifically optimize three-qubit gates such as the Toffoli gate. We also find significant advantages in using Z-type multi-bit operations instead of X-type operations.
         img: /assets/img/projects/waltz/hero.png
         authors:
@@ -77,7 +77,7 @@ sections:
           - name: arXiv
             link: https://arxiv.org/abs/2303.14069
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
-        file: /projects/qompress/index.md
+        imglink: /projects/qompress/
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
         img: /assets/img/projects/qompress/mixed-radix.png
         authors: 
@@ -104,7 +104,7 @@ sections:
             link: https://arxiv.org/abs/2303.00658
 
       - title: "Time-Efficient Qudit Gates through Incremental Pulse Re-seeding"
-        file: /projects/ipr/index.md
+        imglink: /projects/ipr/
         short: "We present a method to iteratively obtain short-duration quantum control pulses when it is not possible to directly modify the objective function. We use this to find gate durations for high-radix logic gates that scale better than expected."
         extra: "* indicates equal contribution"
         img: /assets/img/projects/ipr/hero.png
@@ -132,7 +132,7 @@ sections:
             link: /assets/files/QIP-2022.pdf
 
       - title: Prediction of electron density and pressure profile shapes on NSTX-U using neural networks
-        file: /projects/tenenet/index.md
+        imglink: /projects/tenenet/
         short: We develop a neural network to accurately predict cross-sectional shapes of plasma density and pressure on the NSTX-U fusion reactor. The network runs orders of magnitude faster than existing physics-based code.
         img: /assets/img/projects/tenenet/hero.png
         authors: 
@@ -155,8 +155,22 @@ sections:
   - name: Projects
     description: Personal projects
     items:
+      - title: stim_lattice_surgery
+        imglink: https://github.com/jasonchadwick/stim_lattice_surgery
+        short: (WORK IN PROGRESS - NOT RELEASED YET) Flexible circuit-level simulation of arbitrary Litinski-style lattice surgery circuits using Stim.
+        img: /assets/img/projects/stim_lattice_surgery.png
+        items:
+          - name: code
+            link: https://github.com/jasonchadwick/stim_lattice_surgery
+      - title: qc_utils
+        imglink: https://github.com/jasonchadwick/qc_utils
+        short: Collection of useful utility functions that I have accumulated while working on various quantum computing projects. Includes flexible state/process tomography experiments, Hamiltonian builders, many quantum logic gates, and many more miscellaneous reuseable code.
+        img: /assets/img/projects/qc_utils.png
+        items:
+          - name: code
+            link: https://github.com/jasonchadwick/qc_utils
       - title: Chronodrifter
-        file: /projects/chronodrifter/index.md
+        imglink: /projects/chronodrifter/
         short: A 2D platformer game where the player can slow and reverse the flow of time to solve increasingly complex puzzles. Inspired by the game Portal and the movie Tenet. A live web version is hosted on this site. Made with Unity and C#.
         img: /assets/img/projects/chronodrifter/hero.png
         items:
@@ -168,7 +182,7 @@ sections:
             link: https://github.com/jasonchadwick/chronodrifter
 
       - title: Quops
-        file: /projects/quops/index.md
+        imglink: /projects/quops/
         img: /assets/img/projects/quops/quops.png
         short: A board game consisting of hexagonal tiles, with each tile corresponding to a qubit. Players take turns applying quantum operations to the board to try to steer the collective board state to their target state. Graphical edition coming soon!
         items:
@@ -177,6 +191,7 @@ sections:
           - name: code
             link: https://github.com/jasonchadwick/quops-game
       - title: Cosmic string loops
+        imglink: /projects/cosmic-strings
         img: /assets/img/projects/strings.png
         short: "In the summer of 2019, I worked with Ken Olum at the Tufts Institute of Cosmology to study the properties of smooth cosmic string loops. I began the summer running computational simulations of cosmic strings and later transitioned to working on a mathematical proof that smooth cosmic string loops will always decay."
         items:
@@ -186,7 +201,7 @@ sections:
   - name: Miscellaneous
     items:
       - title: "Explainer: Quantum optimal control for qudits"
-        file: /projects/control_explainer/index.md
+        imglink: /projects/control_explainer/
         img: /assets/img/projects/x-transition.png
         short: A brief background explanation for my work with qudit quantum control.
         items:
@@ -194,7 +209,7 @@ sections:
             link: /projects/quantum-control
 
       - title: Last Minute
-        file: /projects/last_minute/index.md
+        imglink: /projects/last_minute/
         img: /assets/img/projects/last-minute.png
         short: In my junior year of undergrad, some friends and I created a makeshift band to fill an open spot in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute". I'm all the way on stage left playing rhythm guitar!
         items:

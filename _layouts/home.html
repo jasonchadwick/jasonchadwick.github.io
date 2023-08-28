@@ -6,83 +6,78 @@ layout: default
     {{ content }}
 
     {% for section in site.sections %}
-    <h1>{{ section.name }}</h1>
-    <hr>
+      <h1>{{ section.name }}</h1>
+      <hr>
 
-    {% for paper in section.items %}
-
-    {% for item in paper.items %}
-        {% if item.name == "project" or item.name == "page" %}
-            {% assign projectlink = item.link %}
-        {% elsif paper.imglink %}
-          {% assign projectlink = paper.imglink %}
-        {% endif %}
-    {% endfor %}
-
-    <div>
-      <div class="project-homepage-img">
-          <a href="{{ projectlink }}/#page-top">
-            <img src="{{ paper.img }}" alt="Project image" class="floating-img" style="width:100%">
-        </a>
-      </div>
-      <div class="project-homepage-content">
-        <span style="font-weight: bold; font-size:larger; color:var(--header)">{{ paper.title }}</span>
-        <br>
-        {% if paper.publisher %}
-          <span style="font-style: italic; color:var(--text-lighter); font-weight: 500;">{{ paper.publisher }}</span>
-          <br>
-        {% endif %}
-
-        {% assign num_authors = paper.authors | size %}
-        {% for author in paper.authors %}
-          {% if author == paper.authors.last %}
-            {% if author.link %}
-                and <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+      {% for project in section.items %}
+        <div>
+          <div class="project-homepage-img">
+            {% if project.imglink contains "http" %}
+              <a href="{{ project.imglink }}/#page-top" target="_blank" rel="noopener noreferrer">
             {% else %}
-                {{ 'and ' | append: author.name }}  
+              <a href="{{ project.imglink }}/#page-top">
             {% endif %}
-          {% else %}
-            {% if author.link %}
-                <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% if num_authors > 2 %},{% endif %}
-            {% else %}
-                {{ author.name }}{% if num_authors > 2 %},{% endif %}
+              <img src="{{ project.img }}" alt="Project image" class="floating-img" style="width:100%">
+            </a>
+          </div>
+          <div class="project-homepage-content">
+            <span style="font-weight: bold; font-size:larger; color:var(--header)">{{ project.title }}</span>
+            <br>
+            {% if project.publisher %}
+              <span style="font-style: italic; color:var(--text-lighter); font-weight: 500;">{{ project.publisher }}</span>
+              <br>
             {% endif %}
-          {% endif %}
-        {% endfor %}
 
-        <div style="padding-top: 10px"></div>
+            {% assign num_authors = project.authors | size %}
+            {% for author in project.authors %}
+              {% if author == project.authors.last %}
+                {% if author.link %}
+                    and <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
+                {% else %}
+                    {{ 'and ' | append: author.name }}  
+                {% endif %}
+              {% else %}
+                {% if author.link %}
+                    <a class="no-color" href="{{ author.link }}" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>{% if num_authors > 2 %},{% endif %}
+                {% else %}
+                    {{ author.name }}{% if num_authors > 2 %},{% endif %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
 
-        {% if paper.pdf-link %}
-        <span class="highlight">
-          <a href="{{ paper.pdf-link }}" target="_blank" rel="noopener noreferrer">
-            pdf
-          </a>
-        </span>
-        {% endif %}
+            <div style="padding-top: 10px"></div>
 
-        {% for item in paper.items %}
-          
-          {% if item.name == "project" or item.name == "page" %}
-            <a class="no-uline highlight" href="{{ item.link }}/#page-top">
-                {{ item.name }}
-            </a>
-            {% else %}
-            <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-                {{ item.name }}
-            </a>
-          {% endif %}
-            
-        {% endfor %}
+            {% if project.pdf-link %}
+            <span class="highlight">
+              <a href="{{ project.pdf-link }}" target="_blank" rel="noopener noreferrer">
+                pdf
+              </a>
+            </span>
+            {% endif %}
 
-        <div style="padding-top: 10px"></div>
+            {% for item in project.items %}
+              
+              {% if item.name == "project" or item.name == "page" %}
+                <a class="no-uline highlight" href="{{ item.link }}/#page-top">
+                    {{ item.name }}
+                </a>
+                {% else %}
+                <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                    {{ item.name }}
+                </a>
+              {% endif %}
+                
+            {% endfor %}
 
-        {{ paper.short }}
-        {% if paper.extra %}
-          <hr style="height:5px; visibility:hidden;" />
-          {{ paper.extra }}
-        {% endif %}
-      </div>
-    </div>
-    <div style='clear:both; padding-top: 30px'></div>
-    {% endfor %}
+            <div style="padding-top: 10px"></div>
+
+            {{ project.short }}
+            {% if project.extra %}
+              <hr style="height:5px; visibility:hidden;" />
+              {{ project.extra }}
+            {% endif %}
+          </div>
+        </div>
+        <div style='clear:both; padding-top: 30px'></div>
+      {% endfor %}
     {% endfor %}

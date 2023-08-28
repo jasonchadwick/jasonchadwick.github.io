@@ -2,12 +2,6 @@
 layout: nosidebar
 ---
 
-{% for item in page.items %}
-  {% if item.name == "project" %}
-    {% assign projectlink = item.link %}
-  {% endif %}
-{% endfor %}
-
 <head>
   <title>{{ page.title }}</title>
   <script type="application/ld+json">
@@ -33,12 +27,11 @@ layout: nosidebar
         "@type": "ListItem",
         "position": 1,
         "name": "Projects",
-        "item": "https://www.jason-chadwick.com/"
+        "item": "https://www.jason-chadwick.com/",
       },{
         "@type": "ListItem",
         "position": 2,
         "name": "{{ page.title }}",
-        "item": "{{ projectlink }}"
       }]
     }
     </script>
