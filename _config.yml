@@ -34,7 +34,7 @@ sections:
           - name: "Jason D. Chadwick"
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: (to appear) QCE 2023
+        publisher: QCE 2023
         items:
           - name: project
             link: /projects/reoptimization
@@ -164,7 +164,7 @@ sections:
             link: https://github.com/jasonchadwick/stim_lattice_surgery
       - title: qc_utils
         imglink: https://github.com/jasonchadwick/qc_utils
-        short: Collection of useful utility functions that I have accumulated while working on various quantum computing projects. Includes flexible state/process tomography experiments, Hamiltonian builders, many quantum logic gates, and many more miscellaneous reuseable code.
+        short: Collection of useful utility functions that I have accumulated while working on various quantum computing projects. Includes flexible state/process tomography experiments, Hamiltonian builders, many quantum logic gates, and more miscellaneous reuseable code.
         img: /assets/img/projects/qc_utils.png
         items:
           - name: code
@@ -211,7 +211,7 @@ sections:
       - title: Last Minute
         imglink: /projects/last_minute/
         img: /assets/img/projects/last-minute.png
-        short: In my junior year of undergrad, some friends and I created a makeshift band to fill an open spot in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute". I'm all the way on stage left playing rhythm guitar!
+        short: In my junior year of undergrad, some friends and I created a makeshift band to fill an open spot in CMU's annual Spring Carnival. Because we formed the band two weeks before the show date, we chose the fitting name "Last Minute". I'm all the way on stage left playing rhythm guitar! Check out 42:20 for some improvised solos at the end.
         items:
           - name: concert video (YouTube)
             link: https://www.youtube.com/watch?v=Kg0dvcK3-HM
