@@ -155,13 +155,13 @@ sections:
   - name: Projects
     description: Personal projects
     items:
-      - title: stim_lattice_surgery
-        imglink: https://github.com/jasonchadwick/stim_lattice_surgery
-        short: (WORK IN PROGRESS - NOT RELEASED YET) Flexible circuit-level simulation of arbitrary Litinski-style lattice surgery circuits using Stim.
-        img: /assets/img/projects/stim_lattice_surgery.png
-        items:
-          - name: code
-            link: https://github.com/jasonchadwick/stim_lattice_surgery
+      # - title: stim_lattice_surgery
+      #   imglink: https://github.com/jasonchadwick/stim_lattice_surgery
+      #   short: (WORK IN PROGRESS - NOT RELEASED YET) Flexible circuit-level simulation of arbitrary Litinski-style lattice surgery circuits using Stim.
+      #   img: /assets/img/projects/stim_lattice_surgery.png
+      #   items:
+      #     - name: code
+      #       link: https://github.com/jasonchadwick/stim_lattice_surgery
       - title: qc_utils
         imglink: https://github.com/jasonchadwick/qc_utils
         short: Collection of useful utility functions that I have accumulated while working on various quantum computing projects. Includes flexible state/process tomography experiments, Hamiltonian builders, many quantum logic gates, and more miscellaneous reuseable code.
