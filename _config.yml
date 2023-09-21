@@ -35,6 +35,7 @@ sections:
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: QCE 2023
+        award: QTEM Best Paper - 3rd place
         items:
           - name: project
             link: /projects/reoptimization

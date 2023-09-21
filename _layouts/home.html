@@ -21,6 +21,10 @@ layout: default
             </a>
           </div>
           <div class="project-homepage-content">
+            {% if project.award %}
+              <span style="color:var(--primary); font-weight: 500;">{{ project.award }}</span>
+              <br>
+            {% endif %}
             <span style="font-weight: bold; font-size:larger; color:var(--header)">{{ project.title }}</span>
             <br>
             {% if project.publisher %}
