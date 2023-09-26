@@ -6,4 +6,37 @@
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}" -->
 
+<title>{{ page.title }}</title>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "{{ page.title }}",
+"image": [
+    "{{ page.image }}"
+    ],
+"author": [{
+    "@type": "Person",
+    "name": "Jason D. Chadwick",
+    "url": "https://www.jason-chadwick.com"
+    }]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Projects",
+    "item": "https://www.jason-chadwick.com/",
+    },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "{{ page.title }}",
+    }]
+}
+</script>
+
 <!-- end custom head snippets -->

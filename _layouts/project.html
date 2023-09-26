@@ -2,41 +2,6 @@
 layout: nosidebar
 ---
 
-<head>
-  <title>{{ page.title }}</title>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "headline": "{{ page.title }}",
-    "image": [
-      "{{ page.image }}"
-     ],
-    "author": [{
-        "@type": "Person",
-        "name": "Jason D. Chadwick",
-        "url": "https://www.jason-chadwick.com"
-      }]
-  }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Projects",
-        "item": "https://www.jason-chadwick.com/",
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "{{ page.title }}",
-      }]
-    }
-    </script>
-</head>
-
 <a class="no-uline highlight" href="/">
   back to jason-chadwick.com
 </a>
