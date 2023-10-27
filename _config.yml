@@ -201,6 +201,13 @@ sections:
 
   - name: Miscellaneous
     items:
+      - title: "Failed Research"
+        imglink: /projects/failed_research/
+        img: /assets/img/projects/failed_projects.png
+        short: A collection of research ideas I have tried and have not had success with - because science should encourage publication of negative results more!
+        items:
+          - name: page
+            link: /projects/failed_research/ 
       - title: "Explainer: Quantum optimal control for qudits"
         imglink: /projects/control_explainer/
         img: /assets/img/projects/x-transition.png
