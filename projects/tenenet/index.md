@@ -4,7 +4,7 @@ layout: project
 publisher: Nuclear Fusion 61 046024 (2021)
 image: /assets/img/projects/tenenet/hero.png
 items:
-    - name: PDF
+    - name: .pdf
       link: /assets/papers/boyer_prediction_2021.pdf
     - name: IOPscience
       link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b

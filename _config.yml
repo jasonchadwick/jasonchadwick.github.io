@@ -39,10 +39,12 @@ sections:
         items:
           - name: project
             link: /projects/reoptimization
-          - name: PDF
+          - name: .pdf
             link: /assets/papers/chadwick_efficient_2023.pdf
           - name: arXiv
             link: https://arxiv.org/abs/2302.01553
+          - name: poster
+            link: /assets/files/reoptimization-poster.pdf
           - name: code
             link: https://github.com/jasonchadwick/pulse-interpolation
       - title: "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures"
@@ -71,7 +73,7 @@ sections:
         items:
           - name: project
             link: /projects/waltz
-          - name: PDF
+          - name: .pdf
             link: /assets/papers/litteken_dancing_2023.pdf
           - name: ACM Digital Library
             link: https://doi.org/10.1145/3579371.3589106
@@ -97,7 +99,7 @@ sections:
         items:
           - name: project
             link: /projects/qompress
-          - name: PDF
+          - name: .pdf
             link: /assets/papers/litteken_qompress_2023.pdf
           - name: ACM Digital Library
             link: https://doi.org/10.1145/3575693.3575726
@@ -123,7 +125,7 @@ sections:
         items:
           - name: project
             link: /projects/ipr
-          - name: PDF
+          - name: .pdf
             link: /assets/papers/seifert_timeefficient_2022.pdf
           - name: IEEE Xplore
             link: https://doi.org/10.1109/QCE53715.2022.00051
@@ -144,7 +146,7 @@ sections:
         items:
           - name: project
             link: /projects/tenenet
-          - name: PDF
+          - name: .pdf
             link: /assets/papers/boyer_prediction_2021.pdf
           - name: IOPscience
             link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b

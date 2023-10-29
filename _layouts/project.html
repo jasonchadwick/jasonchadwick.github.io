@@ -2,10 +2,6 @@
 layout: nosidebar
 ---
 
-<a class="no-uline highlight" href="/">
-  back to jason-chadwick.com
-</a>
-
 <div style="padding-top:10px"></div>
 <div style="background:var(--project-bg); padding: 20px 20px 15px 20px; border-color: var(--primary-dark); border-width: 2px; border-radius: 10px;">
 
@@ -101,15 +97,10 @@ layout: nosidebar
   {% endif %}
 
   {% for item in page.items %}
-      {% if item.name == "project" %}
-      <a class="no-uline highlight" href="{{ item.link }}">
-          {{ item.name }}
-      </a>
-      {% else %}
-      <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-          {{ item.name }}
-      </a>
-      {% endif %}
+    <!-- <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+        {{ item.name }}
+    </a> -->
+    <a class="no-uline" href="{{ item.link }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600;">[{{ item.name }}]&nbsp;&nbsp;</a>
   {% endfor %}
   <div style="padding-top:10px"></div>
 
@@ -132,7 +123,3 @@ layout: nosidebar
   </div>
   {% endfor %}
 {% endif %}
-
-<a class="no-uline highlight" href="/">
-  back to jason-chadwick.com
-</a>

@@ -22,7 +22,7 @@ layout: default
           </div>
           <div class="project-homepage-content">
             {% if project.award %}
-              <span style="color:var(--primary); font-weight: 500;">{{ project.award }}</span>
+              <span style="color:var(--primary-dark); font-weight: 500;">{{ project.award }}</span>
               <br>
             {% endif %}
             <span style="font-weight: bold; font-size:larger; color:var(--header)">{{ project.title }}</span>
@@ -49,7 +49,7 @@ layout: default
               {% endif %}
             {% endfor %}
 
-            <div style="padding-top: 10px"></div>
+            <div style="padding-top: 5px"></div>
 
             {% if project.pdf-link %}
             <span class="highlight">
@@ -62,18 +62,20 @@ layout: default
             {% for item in project.items %}
               
               {% if item.name == "project" or item.name == "page" %}
-                <a class="no-uline highlight" href="{{ item.link }}/#page-top">
+                <!-- <a class="no-uline highlight" href="{{ item.link }}/#page-top">
                     {{ item.name }}
-                </a>
+                </a> -->
+                <a class="no-uline" href="{{ item.link }}" style="font-weight: 600;">[{{ item.name }}]&nbsp;&nbsp;</a>
                 {% else %}
-                <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                <!-- <a class="no-uline highlight" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
                     {{ item.name }}
-                </a>
+                </a> -->
+                <a class="no-uline" href="{{ item.link }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600;">[{{ item.name }}]&nbsp;&nbsp;</a>
               {% endif %}
                 
             {% endfor %}
 
-            <div style="padding-top: 10px"></div>
+            <div style="padding-top: 5px"></div>
 
             {{ project.short }}
             {% if project.extra %}

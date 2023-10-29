@@ -5,10 +5,12 @@ publisher: IEEE International Conference on Quantum Computing and Engineering (Q
 image: /assets/img/projects/reoptimization/hero.png
 abstract: abstract.md
 items:
-    - name: PDF
+    - name: .pdf
       link: /assets/papers/chadwick_efficient_2023.pdf
     - name: arXiv
       link: https://arxiv.org/abs/2302.01553
+    - name: poster
+      link: /assets/files/reoptimization-poster.pdf
     - name: code
       link: https://github.com/jasonchadwick/pulse-interpolation
 authors:

@@ -4,7 +4,7 @@ layout: project
 publisher: IEEE International Conference on Quantum Computing and Engineering (QCE 2022)
 image: /assets/img/projects/ipr/hero.png
 items:
-    - name: PDF
+    - name: .pdf
       link: /assets/papers/seifert_timeefficient_2022.pdf
     - name: IEEE Xplore
       link: "https://doi.org/10.1109/QCE53715.2022.00051"

@@ -5,7 +5,7 @@ publisher: International Conference on Architectural Support for Programming Lan
 image: /assets/img/projects/qompress/mixed-radix.png
 abstract: abstract.md
 items:
-    - name: PDF
+    - name: .pdf
       link: /assets/papers/litteken_qompress_2023.pdf
     - name: ACM Digital Library
       link: https://doi.org/10.1145/3575693.3575726

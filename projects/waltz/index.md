@@ -5,7 +5,7 @@ publisher: International Symposium on Computer Architecture (ISCA 2023)
 image: /assets/img/projects/waltz/hero.png
 abstract: abstract.md
 items:
-    - name: PDF
+    - name: .pdf
       link: /assets/papers/litteken_dancing_2023.pdf
     - name: ACM Digital Library
       link: https://doi.org/10.1145/3579371.3589106
