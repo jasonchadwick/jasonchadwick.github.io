@@ -210,13 +210,13 @@ sections:
         items:
           - name: page
             link: /projects/failed_research/ 
-      - title: "Explainer: Quantum optimal control for qudits"
-        imglink: /projects/control_explainer/
-        img: /assets/img/projects/x-transition.png
-        short: A brief background explanation for my work with qudit quantum control.
-        items:
-          - name: page
-            link: /projects/quantum-control
+      # - title: "Explainer: Quantum optimal control for qudits"
+      #   imglink: /projects/control_explainer/
+      #   img: /assets/img/projects/x-transition.png
+      #   short: A brief background explanation for my work with qudit quantum control.
+      #   items:
+      #     - name: page
+      #       link: /projects/quantum-control
 
       - title: Last Minute
         imglink: /projects/last_minute/
