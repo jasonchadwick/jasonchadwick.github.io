@@ -17,7 +17,7 @@ Coming soon!
 
 ## Recalibrating magic state factories (fall 2023)
 
-We ended up figuring out how to get this to work (resulting in two papers, [Verity](/projects/verity/) and [Factory Reset](/projects/ray_decay/)). However, there were many (MANY) things we tried during the course of this project and found to not work very well.
+We ended up figuring out how to get this to work (resulting in two papers, Verity and Factory Reset). However, there were many (MANY) things we tried during the course of this project and found to not work very well.
 
 ### Changing injection corner to avoid TLSs
 
