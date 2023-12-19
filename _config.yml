@@ -65,7 +65,7 @@ sections:
       - title: "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures"
         imglink: /projects/waltz/
         short: We extend our previous work on qubit-to-ququart compression to specifically optimize three-qubit gates such as the Toffoli gate. We also find significant advantages in using Z-type multi-bit operations instead of X-type operations.
-        img: /assets/img/projects/waltz/hero.png
+        img: /assets/img/projects/waltz/01_hero.png
         authors:
             - name: "Andrew Litteken"
               link: http://andrewlitteken.com/
@@ -97,7 +97,7 @@ sections:
       - title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
         imglink: /projects/qompress/
         short: We consider selectively compressing pairs of qubits into single four-state ququarts. We generate efficient "partial" operations between ququarts and qubits, which motivates a compiler that can transform any quantum circuit into this framework.
-        img: /assets/img/projects/qompress/mixed-radix.png
+        img: /assets/img/projects/qompress/01_hero.png
         authors: 
           - name: "Andrew Litteken"
             link: http://andrewlitteken.com/

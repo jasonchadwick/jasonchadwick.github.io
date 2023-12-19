@@ -2,7 +2,7 @@
 title: "Dancing the Quantum Waltz: Compiling Three-Qubit Gates on Four Level Architectures"
 layout: project
 publisher: International Symposium on Computer Architecture (ISCA 2023)
-image: /assets/img/projects/waltz/hero.png
+image: /assets/img/projects/waltz/01_hero.png
 abstract: abstract.md
 items:
     - name: .pdf

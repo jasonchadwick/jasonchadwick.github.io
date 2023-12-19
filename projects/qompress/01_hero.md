@@ -1,0 +1,1 @@
+Figure 1: Pairs of qubits can be compressed in fourdimensional ququarts and interact with each other internally or through partial operations, enabling novel compilation techniques and space reduction.

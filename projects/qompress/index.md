@@ -2,7 +2,7 @@
 title: "Qompress: Efficient Compilation for Ququarts Exploiting Partial and Mixed Radix Operations for Communication Reduction"
 layout: project
 publisher: International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2023)
-image: /assets/img/projects/qompress/mixed-radix.png
+image: /assets/img/projects/qompress/01_hero.png
 abstract: abstract.md
 items:
     - name: .pdf
@@ -32,6 +32,8 @@ authors:
       affiliation: University of Chicago
       last: true
 figures:
+    - file: /assets/img/projects/qompress/01_hero.png
+      caption: 01_hero.md
     - file: /assets/img/projects/qompress/02_qudit_gates.png
       caption: 02_qudit_gates.md
     - file: /assets/img/projects/qompress/03_state_evs.png
