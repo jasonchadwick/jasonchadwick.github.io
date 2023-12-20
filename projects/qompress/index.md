@@ -7,7 +7,7 @@ abstract: abstract.md
 items:
     - name: .pdf
       link: /assets/papers/litteken_qompress_2023.pdf
-    - name: DOI
+    - name: doi.org
       link: https://doi.org/10.1145/3575693.3575726
     - name: arXiv
       link: https://arxiv.org/abs/2303.00658

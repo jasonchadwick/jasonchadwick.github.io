@@ -7,7 +7,7 @@ abstract: abstract.md
 items:
     - name: .pdf
       link: /assets/papers/chadwick_efficient_2023.pdf
-    - name: DOI
+    - name: doi.org
       link: https://doi.org/10.1109/QCE57702.2023.00145
     - name: arXiv
       link: https://arxiv.org/abs/2302.01553

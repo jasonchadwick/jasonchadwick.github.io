@@ -6,8 +6,8 @@ image: /assets/img/projects/tenenet/hero.png
 items:
     - name: .pdf
       link: /assets/papers/boyer_prediction_2021.pdf
-    - name: IOPscience
-      link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b
+    - name: doi.org
+      link: https://doi.org/10.1088/1741-4326/abe08b
     - name: poster
       link: /assets/files/fusion-poster.pdf
     - name: slides
