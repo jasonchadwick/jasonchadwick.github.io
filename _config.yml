@@ -56,6 +56,8 @@ sections:
             link: /projects/reoptimization
           - name: .pdf
             link: /assets/papers/chadwick_efficient_2023.pdf
+          - name: DOI
+            link: https://doi.org/10.1109/QCE57702.2023.00145
           - name: arXiv
             link: https://arxiv.org/abs/2302.01553
           - name: poster
@@ -90,7 +92,7 @@ sections:
             link: /projects/waltz
           - name: .pdf
             link: /assets/papers/litteken_dancing_2023.pdf
-          - name: ACM Digital Library
+          - name: DOI
             link: https://doi.org/10.1145/3579371.3589106
           - name: arXiv
             link: https://arxiv.org/abs/2303.14069
@@ -116,7 +118,7 @@ sections:
             link: /projects/qompress
           - name: .pdf
             link: /assets/papers/litteken_qompress_2023.pdf
-          - name: ACM Digital Library
+          - name: DOI
             link: https://doi.org/10.1145/3575693.3575726
           - name: arXiv
             link: https://arxiv.org/abs/2303.00658
@@ -142,7 +144,7 @@ sections:
             link: /projects/ipr
           - name: .pdf
             link: /assets/papers/seifert_timeefficient_2022.pdf
-          - name: IEEE Xplore
+          - name: DOI
             link: https://doi.org/10.1109/QCE53715.2022.00051
           - name: arXiv
             link: https://arxiv.org/abs/2206.14975
@@ -163,7 +165,7 @@ sections:
             link: /projects/tenenet
           - name: .pdf
             link: /assets/papers/boyer_prediction_2021.pdf
-          - name: IOPscience
+          - name: DOI
             link: https://iopscience.iop.org/article/10.1088/1741-4326/abe08b
           - name: poster
             link: /assets/files/fusion-poster.pdf

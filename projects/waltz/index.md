@@ -7,7 +7,7 @@ abstract: abstract.md
 items:
     - name: .pdf
       link: /assets/papers/litteken_dancing_2023.pdf
-    - name: ACM Digital Library
+    - name: DOI
       link: https://doi.org/10.1145/3579371.3589106
     - name: arXiv
       link: https://arxiv.org/abs/2303.14069
