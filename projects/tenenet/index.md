@@ -6,7 +6,7 @@ image: /assets/img/projects/tenenet/hero.png
 items:
     - name: .pdf
       link: /assets/papers/boyer_prediction_2021.pdf
-    - name: doi.org
+    - name: publication
       link: https://doi.org/10.1088/1741-4326/abe08b
     - name: poster
       link: /assets/files/fusion-poster.pdf

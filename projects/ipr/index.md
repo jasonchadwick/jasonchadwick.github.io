@@ -6,7 +6,7 @@ image: /assets/img/projects/ipr/hero.png
 items:
     - name: .pdf
       link: /assets/papers/seifert_timeefficient_2022.pdf
-    - name: doi.org
+    - name: publication
       link: "https://doi.org/10.1109/QCE53715.2022.00051"
     - name: arXiv
       link: https://arxiv.org/abs/2206.14975
