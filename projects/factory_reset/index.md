@@ -1,8 +1,8 @@
 ---
-title: Time-Efficient Qudit Gates through Incremental Pulse Re-seeding
+title: Verity
 layout: project
-publisher: IEEE International Conference on Quantum Computing and Engineering (QCE 2022)
-image: /assets/img/projects/ipr/hero.png
+publisher: 
+image: 
 items:
 
 abstract: abstract.md
