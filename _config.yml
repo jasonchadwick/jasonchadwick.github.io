@@ -39,7 +39,7 @@ sections:
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: In preparation
         items:
-          - name: project
+          - name: coming soon
             link: /
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
         imglink: /projects/reoptimization
