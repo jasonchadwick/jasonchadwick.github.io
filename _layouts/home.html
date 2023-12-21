@@ -51,17 +51,9 @@ layout: default
 
             <div style="padding-top: 5px"></div>
 
-            {% if project.pdf-link %}
-            <span class="highlight">
-              <a href="{{ project.pdf-link }}" target="_blank" rel="noopener noreferrer">
-                pdf
-              </a>
-            </span>
-            {% endif %}
-
             {% for item in project.items %}
               
-              {% if item.name == "project" or item.name == "page" %}
+              {% if item.name == "project" or item.name == "page" or item.name == "coming soon" %}
                 <!-- <a class="no-uline highlight" href="{{ item.link }}/#page-top">
                     {{ item.name }}
                 </a> -->
