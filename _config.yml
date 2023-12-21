@@ -27,7 +27,7 @@ sections:
   - name: Research
     items:
       - title: "In-situ mitigation of time-varying noise in surface code magic state factories"
-        imglink: /
+        imglink: ""
         short: We show that surface code magic state factories are vulnerable to varying hardware performance and can magnify hardware degradation. To alleviate this problem, we introduce Verity, a resilient kernel for magic state distillation.
         extra: "* indicates equal contribution"
         img: /assets/img/projects/coming_soon.png
