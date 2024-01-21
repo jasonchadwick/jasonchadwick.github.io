@@ -4,44 +4,51 @@ layout: project
 publisher: Nuclear Fusion 61 046024 (2021)
 image: /assets/img/projects/tenenet/hero.png
 items:
-    - name: .pdf
-      link: /assets/papers/boyer_prediction_2021.pdf
-    - name: publication
-      link: https://doi.org/10.1088/1741-4326/abe08b
-    - name: poster
-      link: /assets/files/fusion-poster.pdf
-    - name: slides
-      link: /assets/files/fusion-slides.pdf
+  - name: .pdf
+    link: /assets/papers/boyer_prediction_2021.pdf
+  - name: publication
+    link: https://doi.org/10.1088/1741-4326/abe08b
+  - name: poster
+    link: /assets/files/fusion-poster.pdf
+  - name: slides
+    link: /assets/files/fusion-slides.pdf
 abstract: abstract.md
 authors:
-    - name: "Mark D. Boyer"
-      link: https://www.linkedin.com/in/mdboyer/
-      affiliation: Princeton Plasma Physics Laboratory
-    - name: "Jason D. Chadwick"
-      link: https://www.jason-chadwick.com/
-      affiliation: Carnegie Mellon University
+  - name: "Mark D. Boyer"
+    link: https://www.linkedin.com/in/mdboyer/
+    affiliation: Princeton Plasma Physics Laboratory
+  - name: "Jason D. Chadwick"
+    link: https://www.jason-chadwick.com/
+    affiliation: Carnegie Mellon University
 figures:
-    - file: /assets/img/projects/tenenet/01_pca_variance.png
-      caption: 01_pca_variance.md
-    - file: /assets/img/projects/tenenet/04_architectures.png
-      caption: 04_architectures.md
-      width: 100%
-    - file: /assets/img/projects/tenenet/05_flowchart.png
-      caption: 05_flowchart.md
-      width: 100%
-    - file: /assets/img/projects/tenenet/06_uncertainty.png
-      caption: 06_uncertainty.md
-      width: 100%
-    - file: /assets/img/projects/tenenet/09_profiles.png
-      caption: 09_profiles.md
-      width: 100%
-    - file: /assets/img/projects/tenenet/10_histogram.png
-      caption: 10_histogram.md
-      width: 100%
-    - file: /assets/img/projects/tenenet/17_online.png
-      caption: 17_online.md
-      width: 100%
-
+  - file: /assets/img/projects/tenenet/01_pca_variance.png
+    caption: 01_pca_variance.md
+  - file: /assets/img/projects/tenenet/04_architectures.png
+    caption: 04_architectures.md
+    width: 100%
+  - file: /assets/img/projects/tenenet/05_flowchart.png
+    caption: 05_flowchart.md
+    width: 100%
+  - file: /assets/img/projects/tenenet/06_uncertainty.png
+    caption: 06_uncertainty.md
+    width: 100%
+  - file: /assets/img/projects/tenenet/09_profiles.png
+    caption: 09_profiles.md
+    width: 100%
+  - file: /assets/img/projects/tenenet/10_histogram.png
+    caption: 10_histogram.md
+    width: 100%
+  - file: /assets/img/projects/tenenet/17_online.png
+    caption: 17_online.md
+    width: 100%
+contributions:
+  - "Implemented time-filtered scalar inputs to add time history information to training."
+  - "Implemented principle component analysis on the plasma profile data to make training easier."
+  - "Evaluated different neural network architectures to determine optimal number of parameters."
+  - "Conceived and implemented the trained-only-on-available-data experiment to test the real-world performance of the model."
+  - "Experimented with methods to improve prediction confidence, including ensemble uncertainty and the addition of a secondary neural network to predict failures of the primary model."
+thingslearned:
+  - "This was my first published research, so I learned a lot about the research process during my work. It reinforced my interest in pursuing a PhD after my undergraduate work."
 ---
 
 # About

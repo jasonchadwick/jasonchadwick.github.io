@@ -3,10 +3,10 @@ title: "Chronodrifter: a 2D time-manipulation puzzle platformer"
 layout: project
 image: /assets/img/projects/chronodrifter/hero.png
 items:
-    - name: Live web game
-      link: https://www.jason-chadwick.com/chronodrifter
-    - name: code
-      link: https://github.com/jasonchadwick/chronodrifter
+  - name: Live web game
+    link: https://www.jason-chadwick.com/chronodrifter
+  - name: code
+    link: https://github.com/jasonchadwick/chronodrifter
 ---
 
 

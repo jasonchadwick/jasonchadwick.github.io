@@ -123,3 +123,21 @@ layout: nosidebar
   </div>
   {% endfor %}
 {% endif %}
+
+{% if page.contributions %}
+  <br>
+  <h2>My Contributions</h2>
+  <hr>
+  {% for contrib in page.contributions %}
+    <li>{{ contrib }}</li>
+  {% endfor %}
+{% endif %}
+
+{% if page.thingslearned %}
+  <br>
+  <h2>Things I Learned</h2>
+  <hr>
+  {% for thing in page.thingslearned %}
+    <li><b>{{ thing.short }}:</b> {{ thing.long }}</li>
+  {% endfor %}
+{% endif %}
