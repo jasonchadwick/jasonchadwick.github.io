@@ -43,7 +43,13 @@ We ended up figuring out how to get this to work (resulting in two papers, Verit
 
 TODO
 
-<!-- ### Changing injection corner to avoid TLSs
+
+
+<!-- ### Estimating injection error rate from stabilizer signal rates
+
+TODO
+
+### Changing injection corner to avoid TLSs and cosmic rays
 
 TODO
 

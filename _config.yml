@@ -27,20 +27,24 @@ sections:
   - name: Research
     items:
       - title: "Dynamic mitigation of time-varying noise in surface code magic state factories"
-        imglink: /
+        imglink: /projects/factory_reset
         short: We show that surface code magic state factories are vulnerable to varying hardware performance and can magnify hardware degradation. To alleviate this problem, we introduce Verity, a resilient kernel for magic state distillation.
         extra: "* indicates equal contribution"
-        img: /assets/img/projects/coming_soon.png
+        img: /assets/img/projects/factory_reset/hero.png
         authors:
+          - name: "Jason D. Chadwick*"
           - name: "Christopher Kang*"
             link: https://christopherkang.me/
-          - name: "Jason D. Chadwick*"
+          - name: "Sophia Fuhui Lin"
+            link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: In preparation
+        publisher: in preparation
         items:
-          - name: coming soon
-            link: /
+          - name: project
+            link: /projects/factory_reset
+          - name: "slides"
+            link: /assets/files/MM24_no_transitions.pdf
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
         imglink: /projects/reoptimization
         short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.
