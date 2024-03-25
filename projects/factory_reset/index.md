@@ -23,7 +23,8 @@ authors:
     last: true
 figures:
 contributions:
-  - "TODO"
+  - "Designed noise model and wrote open-source evaluation code."
+  - "Designed figures and co-wrote manuscript."
 thingslearned:
   - short: "Code design & organization"
     long: "I was much more careful in the design of the code than I have been in the past. Knowing from the start that this would be a code-heavy project encouraged me to carefully plan out the structure of the codebase. This increased attention to design also led me to make a much more modular, understandable, and easy-to-modify codebase than I might have otherwise made, which are design goals that I will continue to apply to my new projects from now on."

@@ -26,6 +26,24 @@ mylinks:
 sections:
   - name: Research
     items:
+      - title: "Averting multi-qubit burst errors in surface code magic state factories"
+        imglink: /projects/ray_delay
+        short: We design an efficient method to avoid cosmic ray errors in magic state factories, significantly reducing the qubitcycle cost of mitigating these errors.
+        img: /assets/img/projects/ray_delay/hero.png
+        authors:
+          - name: "Jason D. Chadwick"
+          - name: "Joshua Viszlai"
+            link: https://jviszlai.github.io/
+          - name: "Christopher Kang"
+            link: https://christopherkang.me/
+          - name: "Sophia Fuhui Lin"
+            link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+        publisher: in preparation
+        items:
+          - name: project
+            link: /projects/ray_delay
       - title: "Dynamic mitigation of time-varying noise in surface code magic state factories"
         imglink: /projects/factory_reset
         short: We show that surface code magic state factories are vulnerable to varying hardware performance and can magnify hardware degradation. To alleviate this problem, we introduce Verity, a resilient kernel for magic state distillation.

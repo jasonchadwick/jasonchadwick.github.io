@@ -441,6 +441,11 @@ footer {
   box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.15);
 }
 
+// from https://stackoverflow.com/questions/24739126/scroll-to-a-specific-element-using-html
+html {
+  scroll-behavior: smooth;
+}
+
 // // from https://stackoverflow.com/questions/63184618/how-to-highlight-some-phrases-with-rounded-boxes-in-text-with-css
 // .highlight {
 //   background: var(--primary-light);
