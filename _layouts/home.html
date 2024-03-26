@@ -11,7 +11,7 @@ layout: default
 
       {% for project in section.items %}
         <div>
-          <div class="project-homepage-img">
+          <div id="{{ project.title }}" class="project-homepage-img">
             {% if project.imglink contains "http" %}
               <a href="{{ project.imglink }}/#page-top" target="_blank" rel="noopener noreferrer">
             {% else %}
@@ -25,7 +25,7 @@ layout: default
               <span style="color:var(--primary-dark); font-weight: 500;">{{ project.award }}</span>
               <br>
             {% endif %}
-            <span id="{{ project.title }}" style="font-weight: bold; font-size:larger; color:var(--header)">{{ project.title }}</span>
+            <span style="font-weight: bold; font-size:larger; color:var(--header)">{{ project.title }}</span>
             <br>
             {% if project.publisher %}
               <span style="font-style: italic; color:var(--text-lighter); font-weight: 500;">{{ project.publisher }}</span>
