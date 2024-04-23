@@ -6,6 +6,22 @@ image: /assets/img/projects/ray_delay/hero.png
 abstract: abstract.md
 items:
 authors:
+  - name: "Jason D. Chadwick"
+    link: https://www.jason-chadwick.com/
+    affiliation: University of Chicago
+  - name: "Christopher T. Kang"
+    link: https://christopherkang.me/
+    affiliation: University of Chicago
+  - name: "Joshua Viszlai"
+    link: https://jviszlai.github.io/
+    affiliation: University of Chicago
+  - name: "Sophia Fuhui Lin"
+    link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
+    affiliation: University of Chicago
+  - name: "Frederic T. Chong"
+    link: https://people.cs.uchicago.edu/~ftchong/
+    affiliation: University of Chicago
+    last: true
 
 contributions:
   - "Conceived of the idea of quickly detecting cosmic rays in a magic state factory and selectively turning off parts of the factory in response."
@@ -14,5 +30,5 @@ contributions:
   - "Designed figures and prepared manuscript."
 thingslearned:
   - short: "Rare event sampling"
-    long: "As a computer systems researcher, my first instinct to calculate the time overhead of this approach was to directly run Monte Carlo simulations of cosmic ray events during the operation of the factory. ...TODO"
+    long: "(TODO)"
 ---
