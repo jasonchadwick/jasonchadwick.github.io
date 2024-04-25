@@ -1,5 +1,5 @@
 ---
-title: Detecting and resisting time-varying noise in magic state distilleries
+title: "Verity: a resilient kernel for magic state distillation"
 layout: project
 publisher: in preparation
 image: /assets/img/projects/factory_reset/hero.png
