@@ -28,6 +28,24 @@ authors:
     link: https://people.cs.uchicago.edu/~ftchong/
     affiliation: University of Chicago
     last: true
+figures:
+  - file: /assets/img/projects/ray_delay/01_hero.png
+    caption: 01_hero.md
+    width: 100%
+  - file: /assets/img/projects/ray_delay/03_ray_model.png
+    caption: 03_ray_model.md
+    width: 100%
+  - file: /assets/img/projects/ray_delay/04_windowing.png
+    caption: 04_windowing.md
+  - file: /assets/img/projects/ray_delay/07_remapping.png
+    caption: 07_remapping.md
+  - file: /assets/img/projects/ray_delay/09_expansion_distance_vs_radius.png
+    caption: 09_expansion_distance_vs_radius.md
+  - file: /assets/img/projects/ray_delay/11_ideal_detection_overheads.png
+    caption: 11_ideal_detection_overheads.md
+    width: 100%
+  - file: /assets/img/projects/ray_delay/12_remap_overheads_realistic_detection.png
+    caption: 12_remap_overheads_realistic_detection.md
 
 contributions:
   - "Conceived of the idea of quickly detecting cosmic rays in a magic state factory and selectively turning off parts of the factory in response."

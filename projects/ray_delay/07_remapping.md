@@ -1,0 +1,1 @@
+Figure 7. When parts of the chip are forced offline (red patches), re-mapping enables the factory to continue operating in a new configuration, albeit at potentially reduced speed.

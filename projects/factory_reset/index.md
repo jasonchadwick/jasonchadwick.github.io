@@ -4,8 +4,6 @@ layout: project
 publisher: in preparation
 image: /assets/img/projects/factory_reset/hero.png
 items:
-  - name: "arXiv"
-    link: /
   - name: "slides"
     link: /assets/files/MM24_no_transitions.pdf
   - name: code
