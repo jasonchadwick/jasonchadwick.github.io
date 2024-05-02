@@ -8,6 +8,10 @@ items:
     link: /
   - name: "slides"
     link: /assets/files/MM24_no_transitions.pdf
+  - name: code
+    link: https://github.com/jasonchadwick/verity
+  - name: data
+    link: https://zenodo.org/records/11062319
 abstract: abstract.md
 authors:
   - name: "Jason D. Chadwick*"

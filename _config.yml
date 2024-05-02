@@ -46,6 +46,12 @@ sections:
         items:
           - name: project
             link: /projects/ray_delay
+          - name: pdf
+            link: /assets/papers/chadwick_averting_2024.pdf
+          - name: arXiv
+            link: https://arxiv.org/abs/2405.00146
+          - name: code
+            link: https://github.com/jasonchadwick/ray-delay
       - title: "Verity: a resilient kernel for magic state distillation"
         imglink: /projects/factory_reset
         short: We show that surface code magic state factories are vulnerable to varying hardware performance and can magnify hardware degradation. To alleviate this problem, we introduce Verity, a resilient kernel for magic state distillation.
@@ -63,8 +69,14 @@ sections:
         items:
           - name: project
             link: /projects/factory_reset
+          - name: arXiv
+            link: /
           - name: "slides"
             link: /assets/files/MM24_no_transitions.pdf
+          - name: code
+            link: https://github.com/jasonchadwick/verity
+          - name: data
+            link: https://zenodo.org/records/11062319
       - title: "Efficient control pulses for continuous quantum gate families through coordinated re-optimization"
         imglink: /projects/reoptimization
         short: We present a method that allows quantum hardware to execute arbitrary operations at the pulse level by interpolating between a small number of known reference pulses. We demonstrate the procedure on the continuous space of all two-qubit operations.

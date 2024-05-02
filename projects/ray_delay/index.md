@@ -5,6 +5,12 @@ publisher: in preparation
 image: /assets/img/projects/ray_delay/hero.png
 abstract: abstract.md
 items:
+  - name: pdf
+    link: /assets/papers/chadwick_averting_2024.pdf
+  - name: arXiv
+    link: https://arxiv.org/abs/2405.00146
+  - name: code
+    link: https://github.com/jasonchadwick/ray-delay
 authors:
   - name: "Jason D. Chadwick"
     link: https://www.jason-chadwick.com/
