@@ -3,9 +3,11 @@
 
 :root {
   --primary: #6486e3;
-  --primary-light: #b8c9ff;
-  --primary-dark: #4f6ab5;
-  --secondary: #124e9d;
+  --primary-light: #afc3f4;
+  --primary-dark: #4862a8;
+  --complementary-purple: #7764e3;
+  --complementary-pink: #ac64e3;
+  --complementary-green: #64e3d6;
   --bg: #f0f0f0;
   --text: #575757;
   --text-lighter: #808080;
@@ -116,7 +118,7 @@ blockquote {
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   font-size: 14px;
-  color:var(--secondary);
+  color:var(--complementary-purple);
 }
 
 pre {
@@ -449,7 +451,7 @@ html {
 // // from https://stackoverflow.com/questions/63184618/how-to-highlight-some-phrases-with-rounded-boxes-in-text-with-css
 // .highlight {
 //   background: var(--primary-light);
-//   color: var(--secondary);
+//   color: var(--complementary-purple);
 //   padding: 1px 4px 1px 6px; // top right bot left
 //   border-radius: 8px;
 //   margin: 0 5px 0 0;
