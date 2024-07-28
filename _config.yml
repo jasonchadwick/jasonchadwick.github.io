@@ -42,7 +42,7 @@ sections:
             link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: under review
+        publisher: QCE 2024
         items:
           - name: project
             link: /projects/ray_delay
@@ -65,7 +65,7 @@ sections:
             link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: under review
+        publisher: in preparation
         items:
           - name: project
             link: /projects/factory_reset

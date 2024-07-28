@@ -1,7 +1,7 @@
 ---
 title: "Averting multi-qubit burst errors in surface code magic state factories"
 layout: project
-publisher: in preparation
+publisher: QCE 2024
 image: /assets/img/projects/ray_delay/hero.png
 abstract: abstract.md
 items:
