@@ -1,5 +1,5 @@
 ---
-title: "Verity: a resilient kernel for magic state distillation"
+title: "Dynamic mitigation of time-varying noise in surface code magic state factories"
 layout: project
 publisher: in preparation
 image: /assets/img/projects/factory_reset/hero.png

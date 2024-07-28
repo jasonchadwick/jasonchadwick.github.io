@@ -52,7 +52,7 @@ sections:
             link: https://arxiv.org/abs/2405.00146
           - name: code
             link: https://github.com/jasonchadwick/ray-delay
-      - title: "Verity: a resilient kernel for magic state distillation"
+      - title: "Dynamic mitigation of time-varying noise in surface code magic state factories"
         imglink: /projects/factory_reset
         short: We show that surface code magic state factories are vulnerable to varying hardware performance and can magnify hardware degradation. To alleviate this problem, we introduce Verity, a resilient kernel for magic state distillation.
         extra: "* indicates equal contribution"
