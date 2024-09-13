@@ -42,7 +42,7 @@ sections:
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: QCE 2024
-        award: QSYS Best Paper - 1st place (out of 46)
+        award: QSYS Best Paper - 1st place
         items:
           - name: project
             link: /projects/ray_delay
@@ -84,7 +84,7 @@ sections:
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: QCE 2023
-        award: QTEM Best Paper - 3rd place (out of 18)
+        award: QTEM Best Paper - 3rd place
         items:
           - name: project
             link: /projects/reoptimization
