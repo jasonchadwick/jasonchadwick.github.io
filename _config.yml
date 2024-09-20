@@ -50,6 +50,8 @@ sections:
             link: /assets/papers/chadwick_averting_2024.pdf
           - name: arXiv
             link: https://arxiv.org/abs/2405.00146
+          - name: slides
+            link: /assets/files/2024_qce_ray_delay_no_transitions.pdf
           - name: code
             link: https://github.com/jasonchadwick/ray-delay
       - title: "Dynamic mitigation of time-varying noise in surface code magic state factories"

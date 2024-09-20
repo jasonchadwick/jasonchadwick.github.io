@@ -5,10 +5,12 @@ publisher: QCE 2024
 image: /assets/img/projects/ray_delay/hero.png
 abstract: abstract.md
 items:
-  - name: pdf
+  - name: .pdf
     link: /assets/papers/chadwick_averting_2024.pdf
   - name: arXiv
     link: https://arxiv.org/abs/2405.00146
+  - name: slides
+    link: /assets/files/2024_qce_ray_delay_no_transitions.pdf
   - name: code
     link: https://github.com/jasonchadwick/ray-delay
 authors:
