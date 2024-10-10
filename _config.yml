@@ -50,6 +50,8 @@ sections:
             link: /assets/papers/chadwick_averting_2024.pdf
           - name: arXiv
             link: https://arxiv.org/abs/2405.00146
+          - name: talk
+            link: /assets/files/QCE_2023_talk.mp4
           - name: slides
             link: /assets/files/2024_qce_ray_delay_no_transitions.pdf
           - name: code
@@ -96,6 +98,8 @@ sections:
             link: https://doi.org/10.1109/QCE57702.2023.00145
           - name: arXiv
             link: https://arxiv.org/abs/2302.01553
+          - name: talk
+            link: /assets/files/QCE_2023_talk.mp4
           - name: poster
             link: /assets/files/reoptimization-poster.pdf
           - name: code
