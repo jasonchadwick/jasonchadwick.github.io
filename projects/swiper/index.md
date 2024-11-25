@@ -15,7 +15,7 @@ authors:
   - name: "Sarang Joshi"
     link: https://sarangj.com/
     affiliation: University of Chicago
-  - name: "Gokul Ravi"
+  - name: "Gokul Subramanian Ravi"
     link: https://gsravi.engin.umich.edu/
     affiliation: University of Michigan
   - name: "Yanjing Li"
