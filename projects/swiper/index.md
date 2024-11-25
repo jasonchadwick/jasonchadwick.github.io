@@ -46,10 +46,7 @@ figures:
   - file: /assets/img/projects/swiper/15_classical.png
     caption: 15_classical.md
 contributions:
-  - "Developed first-of-its-kind open-source lattice surgery decoding simulator SWIPER-SIM, including 3D visualization of program traces."
-    - "Specified window decoding schemes for spatially-windowed lattice surgery operations."
-    - "Made many performance optimizations to maximize simulator speed."
-    - "Wrote clean, documented code with an intention to open-source upon publication."
+  - "Developed first-of-its-kind open-source lattice surgery decoding simulator SWIPER-SIM, including 3D visualization of program traces. Specified window decoding schemes for spatially-windowed lattice surgery operations, made many performance optimizations to maximize simulator speed, and wrote clean, documented code with an intention to open-source upon publication."
   - "Ran simulations and generated figures."
   - "Revised manuscript."
 thingslearned:
