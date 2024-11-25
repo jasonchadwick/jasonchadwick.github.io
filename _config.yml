@@ -27,6 +27,53 @@ mylinks:
 sections:
   - name: Research
     items:
+      - title: "Short two-qubit pulse sequences for exchange-only spin qubits in 2D layouts"
+        imglink: /
+        short: Coming soon!
+        img: /assets/img/temp.png
+        authors:
+          - name: "Jason D. Chadwick"
+          - name: "Gian Giacomo Guerreschi"
+            link: https://scholar.google.com/citations?user=MMTXsWgAAAAJ
+          - name: "Florian Luthi"
+            link: https://scholar.google.co.il/citations?user=V-t42SoAAAAJ&hl=en
+          - name: "Mateusz T. Mądzik"
+            link: https://scholar.google.com/citations?user=kY0MO7kAAAAJ
+          - name: "Fahd A. Mohiyaddin"
+            link: https://scholar.google.com.au/citations?user=g6aC0TAAAAAJ&hl=en
+          - name: "Prithviraj Prabhu"
+            link: https://scholar.google.com/citations?user=sVvjEcIAAAAJ
+          - name: "Albert T. Schmitz"
+            link: https://www.linkedin.com/in/albert-t-schmitz-phd-17419873
+          - name: "Andrew Litteken"
+            link: http://andrewlitteken.com/
+          - name: "Shavindra Premaratne"
+            link: https://scholar.google.com/citations?user=TxvSqzYAAAAJ
+          - name: "Nathaniel Bishop"
+            link: https://scholar.google.com/citations?user=F-ikfIAAAAAJ
+        publisher: (in preparation)
+        items:
+      - title: "SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding"
+        imglink: /projects/swiper
+        short: We translate branch prediction from classical architecture to the problem of windowed decoding of quantum-error-corrected algorithms. We show that this can consistently reduce application benchmark runtimes by 40%.
+        extra: "* indicates equal contribution"
+        img: /assets/img/projects/swiper/hero.png
+        authors:
+          - name: "Joshua Viszlai*"
+            link: https://jviszlai.github.io/
+          - name: "Jason D. Chadwick*"
+          - name: "Sarang Joshi"
+            link: https://sarangj.com/
+          - name: "Gokul Ravi"
+            link: https://gsravi.engin.umich.edu/
+          - name: "Yanjing Li"
+            link: https://people.cs.uchicago.edu/~yanjingl/
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+        publisher: (under review)
+        items:
+          - name: project
+            link: /projects/swiper
       - title: "Averting multi-qubit burst errors in surface code magic state factories"
         imglink: /projects/ray_delay
         short: We design an efficient method to avoid cosmic ray errors in magic state factories, significantly reducing the qubitcycle cost of mitigating these errors.
@@ -69,7 +116,7 @@ sections:
             link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: in preparation
+        publisher: (in preparation)
         items:
           - name: project
             link: /projects/factory_reset

@@ -1,0 +1,1 @@
+Figure 15. Comparing classical compute cost between baseline method and SWIPER.
