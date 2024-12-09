@@ -6,7 +6,7 @@ image: /assets/img/projects/swiper/hero.png
 abstract: abstract.md
 items:
   - name: ".pdf"
-    link: /assets/files/viszlai_SWIPER_2024.pdf
+    link: /assets/papers/viszlai_SWIPER_2024.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.05115
 authors:
