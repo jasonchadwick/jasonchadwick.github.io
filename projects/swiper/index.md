@@ -5,6 +5,10 @@ publisher: (under review)
 image: /assets/img/projects/swiper/hero.png
 abstract: abstract.md
 items:
+  - name: ".pdf"
+    link: /assets/files/viszlai_SWIPER_2024.pdf
+  - name: "arXiv"
+    link: https://arxiv.org/abs/2412.05115
 authors:
   - name: "Joshua Viszlai"
     link: https://jviszlai.github.io/

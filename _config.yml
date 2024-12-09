@@ -72,8 +72,12 @@ sections:
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: (under review)
         items:
-          - name: project
+          - name: "project"
             link: /projects/swiper
+          - name: ".pdf"
+            link: /assets/files/viszlai_SWIPER_2024.pdf
+          - name: "arXiv"
+            link: https://arxiv.org/abs/2412.05115
       - title: "Averting multi-qubit burst errors in surface code magic state factories"
         imglink: /projects/ray_delay
         short: We design an efficient method to avoid cosmic ray errors in magic state factories, significantly reducing the qubitcycle cost of mitigating these errors.
