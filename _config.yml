@@ -28,9 +28,9 @@ sections:
   - name: Research
     items:
       - title: "Short two-qubit pulse sequences for exchange-only spin qubits in 2D layouts"
-        imglink: /
-        short: Coming soon!
-        img: /assets/img/temp.png
+        imglink: /projects/eo_pulses
+        short: We present a library of two-qubit pulse sequences for EO qubits in different 2D configurations. We explore the impact of EO qubit topology on quantum error correction performance.
+        img: /assets/img/projects/eo_pulses/hero.png
         authors:
           - name: "Jason D. Chadwick"
           - name: "Gian Giacomo Guerreschi"
@@ -51,8 +51,14 @@ sections:
             link: https://scholar.google.com/citations?user=TxvSqzYAAAAJ
           - name: "Nathaniel Bishop"
             link: https://scholar.google.com/citations?user=F-ikfIAAAAAJ
-        publisher: (in preparation)
+        publisher: (under review)
         items:
+          - name: project
+            link: /projects/eo_pulses
+          - name: ".pdf"
+            link: /assets/papers/chadwick_short_2024.pdf
+          - name: "arXiv"
+            link: https://arxiv.org/abs/2412.14918
       - title: "SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding"
         imglink: /projects/swiper
         short: We translate branch prediction from classical architecture to the problem of windowed decoding of quantum-error-corrected algorithms. We show that this can consistently reduce application benchmark runtimes by 40%.

@@ -1,0 +1,1 @@
+Figure 11. Teraquop footprints for all four layouts, under different parallelism conditions and in different noise regimes. $\frac{t_{\text{pulse}}}{T_2^*}$ varies along the x axis and each plot contains three groups of lines corresponding to different $\delta_J$ amounts.

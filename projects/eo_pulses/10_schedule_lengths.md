@@ -1,0 +1,1 @@
+Figure 10. Schedule length for one full QEC cycle of CX gates, under various parallelism restrictions. Here, "length" refers to the duration of the schedule in terms of the number of steps, where many pulses can be applied in parallel during each step.
