@@ -317,13 +317,13 @@ sections:
 
   - name: Miscellaneous
     items:
-      - title: "Unresolved Research Ideas"
-        imglink: /projects/failed_ideas/
-        img: /assets/img/projects/failed_ideas.png
-        short: A collection of research ideas I have tried and have not had success with - because science should encourage dissemination of negative results more!
-        items:
-          - name: page
-            link: /projects/failed_ideas/ 
+      # - title: "Unresolved Research Ideas"
+      #   imglink: /projects/failed_ideas/
+      #   img: /assets/img/projects/failed_ideas.png
+      #   short: A collection of research ideas I have tried and have not had success with - because science should encourage dissemination of negative results more!
+      #   items:
+      #     - name: page
+      #       link: /projects/failed_ideas/ 
       - title: Last Minute
         imglink: /projects/last_minute/
         img: /assets/img/projects/last-minute.png
