@@ -9,6 +9,8 @@ items:
     link: /assets/papers/chadwick_short_2024.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.14918
+  - name: "data"
+    link: https://zenodo.org/records/14518251
 authors:
   - name: "Jason D. Chadwick"
     link: https://www.jason-chadwick.com/

@@ -61,6 +61,8 @@ sections:
             link: /assets/papers/chadwick_short_2024.pdf
           - name: "arXiv"
             link: https://arxiv.org/abs/2412.14918
+          - name: "data"
+            link: https://zenodo.org/records/14518251
       - title: "SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding"
         imglink: /projects/swiper
         short: We translate branch prediction from classical architecture to the problem of windowed decoding of quantum-error-corrected algorithms. We show that this can consistently reduce application benchmark runtimes by 40%.
