@@ -27,7 +27,7 @@ mylinks:
 sections:
   - name: Research
     items:
-      - title: "Short two-qubit pulse sequences for exchange-only spin qubits in 2D layouts"
+      - title: "Short two-qubit pulse sequences for exchange-only spin qubits in two-dimensional layouts"
         imglink: /projects/eo_pulses
         short: We present a library of two-qubit pulse sequences for EO qubits in different 2D configurations. We explore the impact of EO qubit topology on quantum error correction performance.
         img: /assets/img/projects/eo_pulses/hero.png
