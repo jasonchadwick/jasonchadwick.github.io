@@ -37,8 +37,11 @@ authors:
   - name: "Shavindra Premaratne"
     link: https://scholar.google.com/citations?user=TxvSqzYAAAAJ
     affiliation: Intel Corporation
-  - name: "Nathaniel Bishop"
+  - name: "Nathaniel C. Bishop"
     link: https://scholar.google.com/citations?user=F-ikfIAAAAAJ
+    affiliation: Intel Corporation
+  - name: "James S. Clarke"
+    link: https://www.linkedin.com/in/james-clarke-a343b77/
     affiliation: Intel Corporation
     last: true
 figures:
