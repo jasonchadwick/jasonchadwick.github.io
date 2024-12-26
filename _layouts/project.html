@@ -30,7 +30,8 @@ layout: nosidebar
           <div style="padding-top:10px"></div>
         </div>
 
-        {% if forloop.index0 == 2 or forloop.index0 == 5 %}
+        {% assign remainder = forloop.index0 | modulo:3 %}
+        {% if remainder == 2 %}
           </div>
           <div style='clear:both;'></div>
           {% assign num_authors = num_authors | minus:3 %}
