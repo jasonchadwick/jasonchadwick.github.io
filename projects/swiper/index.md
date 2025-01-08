@@ -10,10 +10,10 @@ items:
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.05115
 authors:
-  - name: "Joshua Viszlai"
+  - name: "Joshua Viszlai*"
     link: https://jviszlai.github.io/
     affiliation: University of Chicago
-  - name: "Jason D. Chadwick"
+  - name: "Jason D. Chadwick*"
     link: https://www.jason-chadwick.com/
     affiliation: University of Chicago
   - name: "Sarang Joshi"

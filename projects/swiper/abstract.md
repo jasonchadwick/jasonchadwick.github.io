@@ -10,3 +10,5 @@ layers of decoding tasks to be resolved simultaneously. Through
 a state-of-the-art compilation pipeline and a detailed open-source
 simulator, we find that SWIPER reduces application runtimes by
 40% on average compared to prior parallel window decoders.
+
+\* indicates equal contribution
