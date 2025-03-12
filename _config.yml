@@ -16,7 +16,7 @@ mylinks:
   - name: Github
     link: https://github.com/jasonchadwick
   - name: Google Scholar
-    link: https://scholar.google.com/citations?user=kE5iFs0AAAAJ&hl=en&inst=5778974199078678248
+    link: https://scholar.google.com/citations?user=kE5iFs0AAAAJ
   - name: arXiv
     link: http://arxiv.org/a/chadwick_j_1
   - name: LinkedIn
@@ -36,11 +36,11 @@ sections:
           - name: "Gian Giacomo Guerreschi"
             link: https://scholar.google.com/citations?user=MMTXsWgAAAAJ
           - name: "Florian Luthi"
-            link: https://scholar.google.co.il/citations?user=V-t42SoAAAAJ&hl=en
+            link: https://scholar.google.co.il/citations?user=V-t42SoAAAAJ
           - name: "Mateusz T. Mądzik"
             link: https://scholar.google.com/citations?user=kY0MO7kAAAAJ
           - name: "Fahd A. Mohiyaddin"
-            link: https://scholar.google.com.au/citations?user=g6aC0TAAAAAJ&hl=en
+            link: https://scholar.google.com.au/citations?user=g6aC0TAAAAAJ
           - name: "Prithviraj Prabhu"
             link: https://scholar.google.com/citations?user=sVvjEcIAAAAJ
           - name: "Albert T. Schmitz"
@@ -51,6 +51,8 @@ sections:
             link: https://scholar.google.com/citations?user=TxvSqzYAAAAJ
           - name: "Nathaniel C. Bishop"
             link: https://scholar.google.com/citations?user=F-ikfIAAAAAJ
+          - name: "Anne Y. Matsuura"
+            link: https://scholar.google.com/citations?user=B4qMgvcAAAAJ
           - name: "James S. Clarke"
             link: https://www.linkedin.com/in/james-clarke-a343b77/
         publisher: (under review)
@@ -99,7 +101,7 @@ sections:
           - name: "Joshua Viszlai"
             link: https://jviszlai.github.io/
           - name: "Sophia Fuhui Lin"
-            link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
+            link: https://scholar.google.com/citations?user=agOd56IAAAAJ
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: QCE 2024
@@ -127,7 +129,7 @@ sections:
           - name: "Christopher Kang*"
             link: https://christopherkang.me/
           - name: "Sophia Fuhui Lin"
-            link: https://scholar.google.com/citations?user=agOd56IAAAAJ&hl=en
+            link: https://scholar.google.com/citations?user=agOd56IAAAAJ
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
         publisher: (in preparation)
@@ -173,14 +175,14 @@ sections:
             - name: "Andrew Litteken"
               link: http://andrewlitteken.com/
             - name: "Lennart Maximilian Seifert"
-              link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+              link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ
             - name: "Jason D. Chadwick"
             - name: "Natalia Nottingham"
               link: https://cs.uchicago.edu/people/natalia-nottingham/
             - name: "Tanay Roy"
               link: https://sites.google.com/site/tanayroysite/
             - name: Ziqian Li
-              link: https://scholar.google.com/citations?user=wplWf_UAAAAJ&hl=en&inst=5778974199078678248
+              link: https://scholar.google.com/citations?user=wplWf_UAAAAJ
             - name: David Schuster
               link: https://schusterlab.stanford.edu/
             - name: "Jonathan M. Baker"
@@ -205,7 +207,7 @@ sections:
           - name: "Andrew Litteken"
             link: http://andrewlitteken.com/
           - name: "Lennart Maximilian Seifert"
-            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ
           - name: "Jason D. Chadwick"
           - name: "Natalia Nottingham"
             link: https://cs.uchicago.edu/people/natalia-nottingham/
@@ -231,7 +233,7 @@ sections:
         img: /assets/img/projects/ipr/hero.png
         authors: 
           - name: "Lennart Maximilian Seifert*"
-            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ&hl=en&inst=5778974199078678248
+            link: https://scholar.google.com/citations?user=k6RYl7kAAAAJ
           - name: "Jason D. Chadwick*"
           - name: "Andrew Litteken"
             link: http://andrewlitteken.com/

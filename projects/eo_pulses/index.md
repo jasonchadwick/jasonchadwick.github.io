@@ -42,6 +42,9 @@ authors:
   - name: "Nathaniel C. Bishop"
     link: https://scholar.google.com/citations?user=F-ikfIAAAAAJ
     affiliation: Intel Corporation
+  - name: "Anne Y. Matsuura"
+    link: https://scholar.google.com/citations?user=B4qMgvcAAAAJ&hl=en
+    affiliation: Intel Corporation
   - name: "James S. Clarke"
     link: https://www.linkedin.com/in/james-clarke-a343b77/
     affiliation: Intel Corporation
