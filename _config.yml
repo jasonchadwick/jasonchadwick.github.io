@@ -82,7 +82,7 @@ sections:
             link: https://people.cs.uchicago.edu/~yanjingl/
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: (under review)
+        publisher: ISCA 2025
         items:
           - name: "project"
             link: /projects/swiper
@@ -90,6 +90,8 @@ sections:
             link: /assets/papers/viszlai_SWIPER_2024.pdf
           - name: "arXiv"
             link: https://arxiv.org/abs/2412.05115
+          - name: "code"
+            link: https://github.com/jviszlai/swiper
       - title: "Averting multi-qubit burst errors in surface code magic state factories"
         imglink: /projects/ray_delay
         short: We design an efficient method to avoid cosmic ray errors in magic state factories, significantly reducing the qubitcycle cost of mitigating these errors.

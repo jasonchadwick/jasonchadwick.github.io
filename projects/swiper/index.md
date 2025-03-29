@@ -1,7 +1,7 @@
 ---
 title: "SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding"
 layout: project
-publisher: (under review)
+publisher: ISCA 2025
 image: /assets/img/projects/swiper/hero.png
 abstract: abstract.md
 items:
@@ -9,6 +9,8 @@ items:
     link: /assets/papers/viszlai_SWIPER_2024.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.05115
+  - name: "code"
+    link: https://github.com/jviszlai/swiper
 authors:
   - name: "Joshua Viszlai*"
     link: https://jviszlai.github.io/
