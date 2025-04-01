@@ -113,6 +113,8 @@ sections:
             link: /projects/ray_delay
           - name: .pdf
             link: /assets/papers/chadwick_averting_2024.pdf
+          - name: publication
+            link: https://ieeexplore.ieee.org/document/10821391
           - name: arXiv
             link: https://arxiv.org/abs/2405.00146
           - name: talk
