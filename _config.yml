@@ -25,7 +25,8 @@ mylinks:
     link: https://orcid.org/0000-0002-7932-1418
 
 sections:
-  - name: Research
+  - name: Selected Research
+    under: See CV for a full list of publications
     items:
       - title: "Short two-qubit pulse sequences for exchange-only spin qubits in two-dimensional layouts"
         imglink: /projects/eo_pulses

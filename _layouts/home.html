@@ -6,8 +6,12 @@ layout: default
     {{ content }}
 
     {% for section in site.sections %}
-      <h1>{{ section.name }}</h1>
+      <h1 display="inline-block">{{ section.name }}</h1>
       <hr>
+
+      {% if section.under %}
+        <div style="margin-top: -50px; padding-bottom: 25px; color:var(--text-lighter); font-weight: 500; text-align: right;">{{ section.under }}</div>
+      {% endif %}
 
       {% for project in section.items %}
         <div>
