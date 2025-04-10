@@ -56,12 +56,12 @@ sections:
             link: https://scholar.google.com/citations?user=B4qMgvcAAAAJ
           - name: "James S. Clarke"
             link: https://www.linkedin.com/in/james-clarke-a343b77/
-        publisher: (under review)
+        publisher: Physical Review A (to appear)
         items:
           - name: project
             link: /projects/eo_pulses
           - name: ".pdf"
-            link: /assets/papers/chadwick_short_2024.pdf
+            link: /assets/papers/chadwick_short_2025.pdf
           - name: "arXiv"
             link: https://arxiv.org/abs/2412.14918
           - name: "data"
@@ -83,7 +83,7 @@ sections:
             link: https://people.cs.uchicago.edu/~yanjingl/
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: ISCA 2025
+        publisher: ISCA 2025 (to appear)
         items:
           - name: "project"
             link: /projects/swiper

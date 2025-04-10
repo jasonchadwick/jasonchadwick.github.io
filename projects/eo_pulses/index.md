@@ -6,7 +6,7 @@ image: /assets/img/projects/eo_pulses/hero.png
 abstract: abstract.md
 items:
   - name: ".pdf"
-    link: /assets/papers/chadwick_short_2024.pdf
+    link: /assets/papers/chadwick_short_2025.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.14918
   - name: "data"
