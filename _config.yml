@@ -28,6 +28,29 @@ sections:
   - name: Selected Research
     under: See CV for a full list of publications
     items:
+      - title: "Erasure Minesweeper: exploring hybrid-erasure surface code architectures for efficient quantum error correction"
+        imglink: /projects/erasure_minesweeper
+        short: We explore a hybrid-erasure architecture for surface code error correction, studying strategies for placement of erasure qubits and tradeoffs between per-qubit cost and logical performance.
+        img: /assets/img/projects/erasure_minesweeper/hero.png
+        authors:
+          - name: "Jason D. Chadwick*"
+          - name: "Mariesa H. Teo"
+            link: https://scholar.google.com/citations?user=UsWIVDYAAAAJ
+          - name: "Joshua Viszlai"
+            link: https://jviszlai.github.io/
+          - name: "Willers Yang*"
+            link: https://scholar.google.com/citations?user=NndqgbkAAAAJ
+          - name: "Frederic T. Chong"
+            link: https://people.cs.uchicago.edu/~ftchong/
+        publisher: (under review)
+        extra: "* indicates equal contribution"
+        items:
+          - name: project
+            link: /projects/erasure_minesweeper
+          - name: ".pdf"
+            link: /assets/papers/chadwick_erasure_2025.pdf
+          - name: "arXiv"
+            link: https://arxiv.org/abs/2505.00066
       - title: "Short two-qubit pulse sequences for exchange-only spin qubits in two-dimensional layouts"
         imglink: /projects/eo_pulses
         short: We develop an optimization method to map exchange-only (EO) qubit pulse sequences to arbitrary connectivities. We explore the impact of EO qubit topology on quantum error correction performance.
