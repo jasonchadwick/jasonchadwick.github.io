@@ -56,7 +56,7 @@ contributions:
   - "Designed realistic noise models for cosmic ray impacts and TLS scrambling."
   - "Wrote open-source evaluation code."
   - "Designed figures and prepared manuscript."
-thingslearned:
-  - short: "Rare event sampling"
-    long: "(TODO)"
+# thingslearned:
+#   - short: "Rare event sampling"
+#     long: "(TODO)"
 ---

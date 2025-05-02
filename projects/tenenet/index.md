@@ -47,8 +47,8 @@ contributions:
   - "Evaluated different neural network architectures to determine optimal number of parameters."
   - "Conceived and implemented the trained-only-on-available-data experiment to test the real-world performance of the model."
   - "Experimented with methods to improve prediction confidence, including ensemble uncertainty and the addition of a secondary neural network to predict failures of the primary model."
-thingslearned:
-  - "This was my first published research, so I learned a lot about the research process during my work. It reinforced my interest in pursuing a PhD after my undergraduate work."
+# thingslearned:
+#   - "This was my first published research, so I learned a lot about the research process during my work. It reinforced my interest in pursuing a PhD after my undergraduate work."
 ---
 
 # About

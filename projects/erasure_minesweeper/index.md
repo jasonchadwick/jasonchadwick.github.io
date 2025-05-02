@@ -30,8 +30,32 @@ figures:
   - file: /assets/img/projects/erasure_minesweeper/01_hero.png
     caption: 01_hero.md
     width: 50%
+  - file: /assets/img/projects/erasure_minesweeper/04_placement.png
+    caption: 04_placement.md
+    width: 40%
+  - file: /assets/img/projects/erasure_minesweeper/07_ler.png
+    caption: 07_ler.md
+    width: 50%
+  - file: /assets/img/projects/erasure_minesweeper/08_d.png
+    caption: 08_d.md
+    width: 50%
+  - file: /assets/img/projects/erasure_minesweeper/09_threshold.png
+    caption: 09_threshold.md
+    width: 50%
+  - file: /assets/img/projects/erasure_minesweeper/12_costs.png
+    caption: 12_costs.md
+    width: 50%
+  - file: /assets/img/projects/erasure_minesweeper/13_corr.png
+    caption: 13_corr.md
+    width: 100%
+  - file: /assets/img/projects/erasure_minesweeper/17_analytical_comp.png
+    caption: 17_analytical_comp.md
+    width: 50%
 contributions:
-  - (coming soon)
-thingslearned:
-  - short: (coming soon)
+  - Wrote erasure simulation code (with Josh) and ran experiments.
+  - Determined project direction along with other co-authors.
+  - Wrote manuscript along with other co-authors.
+# thingslearned:
+#   - short: Time management
+#     long: 
 ---

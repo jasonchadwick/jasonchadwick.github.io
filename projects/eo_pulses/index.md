@@ -79,13 +79,13 @@ contributions:
   - "Wrote quantum circuit -> pulse sequence compiler to test effectiveness of pulse sequences for real applications."
   - "Ran simulations of quantum error correction on different hardware layouts and compared resource estimates."
   - "Wrote and revised manuscript."
-thingslearned:
-  - short: "Cross-team collaboration"
-    long: "I had the opportunity to work with and learn from many researchers across different hardware and software teams, and this experience improved my ability to see a project from different perspectives and to communicate with a wide range of experts. It was cool working on a project that many people on different teams were interested in."
-  - short: "Industry software standards"
-    long: "As part of this work, I created portable PulseLibrarian scripts in Python and C++ that were integrated into various parts of the Intel quantum stack."
-  - short: "Presenting work in an industry setting"
-    long: "I learned valuable skills about how to present work and results to higher-ups in an industry setting; the exercise of extracting the *impact* of each discovery or result is very useful for guiding the work. \"Why should others care about this result?\""
-  - short: "Metric of impact"
-    long: "\"The way we evaluate impact on our team is by asking, 'Who changed their plans after seeing your result?'\" I found this a neat way to look at the work I do, and to motivate and guide my future projects."
+# thingslearned:
+#   - short: "Cross-team collaboration"
+#     long: "I had the opportunity to work with and learn from many researchers across different hardware and software teams, and this experience improved my ability to see a project from different perspectives and to communicate with a wide range of experts. It was cool working on a project that many people on different teams were interested in."
+#   - short: "Industry software standards"
+#     long: "As part of this work, I created portable PulseLibrarian scripts in Python and C++ that were integrated into various parts of the Intel quantum stack."
+#   - short: "Presenting work in an industry setting"
+#     long: "I learned valuable skills about how to present work and results to higher-ups in an industry setting; the exercise of extracting the *impact* of each discovery or result is very useful for guiding the work. \"Why should others care about this result?\""
+#   - short: "Metric of impact"
+#     long: "\"The way we evaluate impact on our team is by asking, 'Who changed their plans after seeing your result?'\" I found this a neat way to look at the work I do, and to motivate and guide my future projects."
 ---

@@ -55,9 +55,9 @@ contributions:
   - "Developed first-of-its-kind open-source lattice surgery decoding simulator SWIPER-SIM, including 3D visualization of program traces. Specified window decoding schemes for spatially-windowed lattice surgery operations, made many performance optimizations to maximize simulator speed, and wrote clean, documented code with an intention to open-source upon publication."
   - "Ran simulations and generated figures."
   - "Revised manuscript."
-thingslearned:
-  - short: "Intentional software development"
-    long: "SWIPER-SIM consists of four main pieces that handle different parts of the simulation (such as the device or the decoder). We were careful about how we layed out the initial design of the simulator before starting to fill it in with code, and this was very helpful in ending up with a clean design at the end."
-  - short: "Presentation"
-    long: "A lot of work went into figuring out how best to present this paper to the target audience (computer architecture reviewers). I learned about how to effectively guide the (potentially short on time) reader through a complex topic by highlighting the key concepts and making certain parts of the paper as self-contained as possible."
+# thingslearned:
+#   - short: "Intentional software development"
+#     long: "SWIPER-SIM consists of four main pieces that handle different parts of the simulation (such as the device or the decoder). We were careful about how we layed out the initial design of the simulator before starting to fill it in with code, and this was very helpful in ending up with a clean design at the end."
+#   - short: "Presentation"
+#     long: "A lot of work went into figuring out how best to present this paper to the target audience (computer architecture reviewers). I learned about how to effectively guide the (potentially short on time) reader through a complex topic by highlighting the key concepts and making certain parts of the paper as self-contained as possible."
 ---

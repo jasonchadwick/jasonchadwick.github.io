@@ -46,7 +46,7 @@ figures:
 contributions:
   - "Conceived of re-optimizing control pulses, seeded from successful longer-duration optimizations, to improve convergence for difficult optimizations."
   - "Built a higher-level interface around the new package Juqbox.jl to easily use different Hamiltonians, reference frames, and other optimization options."
-thingslearned:
-  - short: "Quantum research"
-    long: "This project was my introduction to the field of quantum computing. I learned a lot about the field and the research process in general. I started the project as an undergraduate and finished it as a PhD student, so it holds a special place in my heart."
+# thingslearned:
+#   - short: "Quantum research"
+#     long: "This project was my introduction to the field of quantum computing. I learned a lot about the field and the research process in general. I started the project as an undergraduate and finished it as a PhD student, so it holds a special place in my heart."
 ---

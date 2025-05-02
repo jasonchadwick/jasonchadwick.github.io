@@ -43,11 +43,11 @@ contributions:
   - "Developed the arbitrary-dimension method of using reference points and a simplicial mesh."
   - "Designed and developed the code to run these experiments."
   - "Prepared manuscript and presented the work at QCE 2023."
-thingslearned:
-  - short: "Self-driven research"
-    long: "This was my first self-driven research project. I improved my research skills "
-  - short: "Pulse optimization tricks"
-    long: "I became more familiar with pulse optimization techniques and with Q-CTRL's software. There is typically a significant amount of hand-holding required when trying to guide a pulse optimizer through a complex optimization landscape; in a way, this whole project is an example of a method of guiding the optimizer to find the final result that you want."
-  - short: "Flexibility of arbitrary cost function"
-    long: "I learned to appreciate the power of an arbitrary cost function for pulse optimization; I am sure that there are many more potential cool projects that can come out of new ways to use the optimization cost function."
+# thingslearned:
+#   - short: "Self-driven research"
+#     long: "This was my first self-driven research project. I improved my research skills "
+#   - short: "Pulse optimization tricks"
+#     long: "I became more familiar with pulse optimization techniques and with Q-CTRL's software. There is typically a significant amount of hand-holding required when trying to guide a pulse optimizer through a complex optimization landscape; in a way, this whole project is an example of a method of guiding the optimizer to find the final result that you want."
+#   - short: "Flexibility of arbitrary cost function"
+#     long: "I learned to appreciate the power of an arbitrary cost function for pulse optimization; I am sure that there are many more potential cool projects that can come out of new ways to use the optimization cost function."
 ---

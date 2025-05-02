@@ -53,7 +53,7 @@ figures:
 contributions:
   - "Used time-optimal pulse optimization software to generate fast pulses for qubit-qubit, qubit-ququart, and ququart-ququart gates."
   - "Provided feedback and suggestions for compiler design."
-thingslearned:
-  - short: "Intro to quantum compiler research"
-    long: "As my first project fully in the quantum computer systems space, I learned about the state of the art in quantum compiler design, and the considerations that go into creating and benchmarking a novel compiler."
+# thingslearned:
+#   - short: "Intro to quantum compiler research"
+#     long: "As my first project fully in the quantum computer systems space, I learned about the state of the art in quantum compiler design, and the considerations that go into creating and benchmarking a novel compiler."
 ---

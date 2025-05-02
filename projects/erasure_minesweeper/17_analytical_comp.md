@@ -1,0 +1,1 @@
+Figure 17. Comparing code-capacity model from Section III with simulation data from Section V for two different placement strategies (random placement $$P_r$$, optimized heuristic $$P^*$$) and placements in consecutive rows and columns.

@@ -1,0 +1,1 @@
+Figure 4. Examples of hybrid-erasure architecture. (a) $$\mathcal{A}(5,0.6,P_r)$$ where the placement $$P_r = \{1,2,5,...,22\}$$ is sampled at random. (b) $$\mathcal{A}(7,0.57,P^*)$$. Since $$f_e\times d^2 = 27.93$$, only 27 erasures are allocated, with $24$ erasures placed in 2 rows/columns, and the remaining 3 placed greedily, all as close to the center as possible.

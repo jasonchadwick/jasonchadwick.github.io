@@ -1,0 +1,1 @@
+Figure 9. Extracted surface code thresholds for random and optimized placement for different erasure fractions. Optimized placement leads to more consistent improvements in threshold.
