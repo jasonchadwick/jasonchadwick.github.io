@@ -1,12 +1,14 @@
 ---
 title: "Short two-qubit pulse sequences for exchange-only spin qubits in 2D layouts"
 layout: project
-publisher: (under review)
+publisher: Physical Review A 111, 052616 (2025)
 image: /assets/img/projects/eo_pulses/hero.png
 abstract: abstract.md
 items:
   - name: ".pdf"
     link: /assets/papers/chadwick_short_2025.pdf
+  - name: "publication"
+    link: https://link.aps.org/doi/10.1103/PhysRevA.111.052616
   - name: "arXiv"
     link: https://arxiv.org/abs/2412.14918
   - name: "data"
