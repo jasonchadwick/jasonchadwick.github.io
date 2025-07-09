@@ -34,15 +34,15 @@ sections:
         img: /assets/img/projects/erasure_minesweeper/hero.png
         authors:
           - name: "Jason D. Chadwick*"
-          - name: "Mariesa H. Teo"
+          - name: "Mariesa H. Teo*"
             link: https://scholar.google.com/citations?user=UsWIVDYAAAAJ
-          - name: "Joshua Viszlai"
+          - name: "Joshua Viszlai*"
             link: https://jviszlai.github.io/
           - name: "Willers Yang*"
             link: https://scholar.google.com/citations?user=NndqgbkAAAAJ
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: (under review)
+        publisher: QCE 2025 (to appear)
         extra: "* indicates equal contribution"
         items:
           - name: project
