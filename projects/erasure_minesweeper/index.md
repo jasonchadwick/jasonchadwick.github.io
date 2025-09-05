@@ -9,6 +9,8 @@ items:
     link: /assets/papers/chadwick_erasure_2025.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2505.00066
+  - name: "slides"
+    link: /assets/files/2025_qce_minesweeper.pdf
 authors:
   - name: "Jason D. Chadwick*"
     link: https://www.jason-chadwick.com/
