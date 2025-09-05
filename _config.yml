@@ -26,7 +26,7 @@ mylinks:
 
 sections:
   - name: Selected Research
-    under: See CV for a full list of publications
+    under: "See <a href=\"/assets/files/JasonChadwickCV.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CV</a> for a full list of publications"
     items:
       - title: "Erasure Minesweeper: exploring hybrid-erasure surface code architectures for efficient quantum error correction"
         imglink: /projects/erasure_minesweeper
@@ -42,7 +42,8 @@ sections:
             link: https://scholar.google.com/citations?user=NndqgbkAAAAJ
           - name: "Frederic T. Chong"
             link: https://people.cs.uchicago.edu/~ftchong/
-        publisher: QCE 2025 (to appear)
+        publisher: QCE 2025
+        award: QEC25 Best Poster, Honorable Mention
         extra: "* indicates equal contribution"
         items:
           - name: project
@@ -51,6 +52,8 @@ sections:
             link: /assets/papers/chadwick_erasure_2025.pdf
           - name: "arXiv"
             link: https://arxiv.org/abs/2505.00066
+          - name: "slides"
+            link: /assets/files/2025_qce_minesweeper.pdf
       - title: "Short two-qubit pulse sequences for exchange-only spin qubits in two-dimensional layouts"
         imglink: /projects/eo_pulses
         short: We develop an optimization method to map exchange-only (EO) qubit pulse sequences to arbitrary connectivities. We explore the impact of EO qubit topology on quantum error correction performance.
