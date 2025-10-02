@@ -52,6 +52,8 @@ sections:
             link: /assets/papers/chadwick_erasure_2025.pdf
           - name: "arXiv"
             link: https://arxiv.org/abs/2505.00066
+          - name: talk
+            link: https://youtu.be/PRxMI5SK-XE
           - name: "slides"
             link: /assets/files/2025_qce_minesweeper.pdf
       - title: "Short two-qubit pulse sequences for exchange-only spin qubits in two-dimensional layouts"
@@ -149,7 +151,7 @@ sections:
           - name: arXiv
             link: https://arxiv.org/abs/2405.00146
           - name: talk
-            link: /assets/files/QCE_2023_talk.mp4
+            link: https://youtu.be/aa5MfmDiIRQ
           - name: slides
             link: /assets/files/2024_qce_ray_delay_no_transitions.pdf
           - name: code
@@ -197,7 +199,7 @@ sections:
           - name: arXiv
             link: https://arxiv.org/abs/2302.01553
           - name: talk
-            link: /assets/files/QCE_2023_talk.mp4
+            link: https://youtu.be/wfrz54mJyWg
           - name: poster
             link: /assets/files/reoptimization-poster.pdf
           - name: code
