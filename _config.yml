@@ -94,6 +94,8 @@ sections:
             link: https://link.aps.org/doi/10.1103/PhysRevA.111.052616
           - name: "arXiv"
             link: https://arxiv.org/abs/2412.14918
+          - name: "talk"
+            link: https://youtu.be/VFgutvXYUcs
           - name: "data"
             link: https://zenodo.org/records/14518251
       - title: "SWIPER: Minimizing Fault-Tolerant Quantum Program Latency via Speculative Window Decoding"
