@@ -1,0 +1,1 @@
+Figure 13. *Top:* Logical circuit implementing 15-to-1 distillation. CNOTs are shaded in groups to show those that can be performed in parallel using transversal CNOTs. *Bottom:* A 2x8 SNAQ layout executing the circuit. The schedule involves parallel tCNOTs and T gate injection, interleaved with four SE rounds.
