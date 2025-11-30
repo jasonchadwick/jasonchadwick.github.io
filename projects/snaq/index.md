@@ -1,5 +1,5 @@
 ---
-title: "Serialized Syndrome Extraction for Surface Codes in Readout-Constrained Spin Qubit Arrays"
+title: "A transversal-logic-equipped surface code architecture for readout-constrained spin qubits"
 layout: project
 publisher: (under review)
 image: /assets/img/projects/snaq/hero.png
