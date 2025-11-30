@@ -1,5 +1,5 @@
 ---
-title: "SNAQ: A Fast, Space-Efficient, and Practical Surface Code Architecture for Spin Qubits"
+title: "Serialized Syndrome Extraction for Surface Codes in Readout-Constrained Spin Qubit Arrays"
 layout: project
 publisher: (under review)
 image: /assets/img/projects/snaq/hero.png

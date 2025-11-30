@@ -28,7 +28,7 @@ sections:
   - name: Selected Research
     under: "See <a href=\"/assets/files/JasonChadwickCV.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CV</a> for a full list of publications"
     items:
-      - title: "SNAQ: A Fast, Space-Efficient, and Practical Surface Code Architecture for Spin Qubits"
+      - title: "Serialized Syndrome Extraction for Surface Codes in Readout-Constrained Spin Qubit Arrays"
         imglink: /projects/snaq
         short: We propose SNAQ, a near-term-manufacturable surface code architecture for spin qubits that significantly reduces chip area per logical qubit and improves logical clock speed.
         img: /assets/img/projects/snaq/hero.png
