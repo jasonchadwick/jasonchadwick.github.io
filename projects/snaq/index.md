@@ -6,7 +6,7 @@ image: /assets/img/projects/snaq/hero.png
 abstract: abstract.md
 items:
   - name: ".pdf"
-    link: /assets/papers/chadwick_SNAQ_2025.pdf
+    link: /assets/papers/chadwick_manufacturable_2025.pdf
   - name: "arXiv"
     link: https://arxiv.org/abs/2512.07131
 authors:
