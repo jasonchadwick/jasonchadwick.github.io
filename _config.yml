@@ -28,7 +28,7 @@ sections:
   - name: Selected Research
     under: "See <a href=\"/assets/files/JasonChadwickCV.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">CV</a> for a full list of publications"
     items:
-      - title: "A transversal-logic-equipped surface code architecture for readout-constrained spin qubits"
+      - title: "A manufacturable surface code architecture for spin qubits with fast transversal logic"
         imglink: /projects/snaq
         short: We propose SNAQ, a near-term-manufacturable surface code architecture for spin qubits that significantly reduces chip area per logical qubit and improves logical clock speed.
         img: /assets/img/projects/snaq/hero.png
@@ -46,7 +46,9 @@ sections:
           - name: project
             link: /projects/snaq
           - name: ".pdf"
-            link: /assets/papers/chadwick_SNAQ_2025.pdf
+            link: /assets/papers/chadwick_manufacturable_2025.pdf
+          - name: "arXiv"
+            link: https://arxiv.org/abs/2512.07131
       - title: "Erasure Minesweeper: exploring hybrid-erasure surface code architectures for efficient quantum error correction"
         imglink: /projects/erasure_minesweeper
         short: We explore a hybrid-erasure architecture for surface code error correction, studying strategies for placement of erasure qubits and tradeoffs between per-qubit cost and logical performance.

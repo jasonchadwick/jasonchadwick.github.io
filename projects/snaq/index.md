@@ -7,6 +7,8 @@ abstract: abstract.md
 items:
   - name: ".pdf"
     link: /assets/papers/chadwick_SNAQ_2025.pdf
+  - name: "arXiv"
+    link: https://arxiv.org/abs/2512.07131
 authors:
   - name: "Jason D. Chadwick"
     link: https://www.jason-chadwick.com/
