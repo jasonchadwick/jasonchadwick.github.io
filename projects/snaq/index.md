@@ -1,5 +1,5 @@
 ---
-title: "A transversal-logic-equipped surface code architecture for readout-constrained spin qubits"
+title: "SNAQ: A manufacturable surface code architecture for spin qubits with fast transversal logic"
 layout: project
 publisher: (under review)
 image: /assets/img/projects/snaq/hero.png
