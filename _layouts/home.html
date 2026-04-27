@@ -6,7 +6,7 @@ layout: default
     {{ content }}
 
     {% for section in site.sections %}
-      <h1 display="inline-block">{{ section.name }}</h1>
+      <h1 style="display:inline-block;">{{ section.name }}</h1>
       <hr>
 
       {% if section.under %}
@@ -15,7 +15,7 @@ layout: default
 
       {% for project in section.items %}
         <div>
-          <div id="{{ project.title }}" class="project-homepage-img">
+          <div id="{{ project.title | slugify }}" class="project-homepage-img">
             {% if project.imglink contains "http" %}
               <a href="{{ project.imglink }}/#page-top" target="_blank" rel="noopener noreferrer">
             {% else %}
