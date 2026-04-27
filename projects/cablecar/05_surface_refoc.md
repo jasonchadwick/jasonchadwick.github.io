@@ -1,0 +1,1 @@
+Figure 5. Performance of the surface code shuttling schedule on the unit cell architecture under varying shuttling noise, with and without CAbLECAR circuit tailoring. Tailoring allows the surface code to tolerate 5-10× higher shuttle error rates on the ancilla qubits. This increased noise resilience paves the way for considering more complex codes with longer shuttling paths.
