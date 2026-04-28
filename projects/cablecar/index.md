@@ -8,7 +8,7 @@ items:
   - name: ".pdf"
     link: /assets/papers/chadwick_cablecar_2026.pdf
   - name: "arXiv"
-    link: https://arxiv.org/abs/TODO
+    link: https://arxiv.org/abs/2604.24739
 authors:
   - name: "Jason D. Chadwick"
     link: https://www.jason-chadwick.com/
